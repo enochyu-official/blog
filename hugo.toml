@@ -4,5 +4,9 @@ title = "Enoch Yu"
 theme = 'hugo-theme-stack'
 
 [params]
+  mainSections = ["posts"]
+
   [params.article]
     math = true
+
+
