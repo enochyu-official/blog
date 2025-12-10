@@ -1,0 +1,8 @@
+baseURL = 'https://enochyu-official.github.io/'
+languageCode = 'en-us'
+title = "Enoch Yu"
+theme = 'hugo-theme-stack'
+
+[params]
+  [params.article]
+    math = true
