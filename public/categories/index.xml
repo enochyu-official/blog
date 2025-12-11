@@ -7,6 +7,14 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>CTF</title>
+        <link>http://localhost:1313/categories/ctf/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/ctf/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Linux</title>
         <link>http://localhost:1313/categories/linux/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
@@ -20,6 +28,14 @@
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/math/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Miscellaneous</title>
+        <link>http://localhost:1313/categories/miscellaneous/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/categories/miscellaneous/</guid>
         <description></description>
         </item>
         

@@ -69,7 +69,7 @@ icon = "item"
 #Miscellaneous
 [[menu.main]]
 name = "Miscellaneous"
-url = "/categories/misc/"
+url = "/categories/miscellaneous/"
 weight = 6
 [menu.main.params]
 icon = "item"
