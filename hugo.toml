@@ -3,10 +3,59 @@ languageCode = 'en-us'
 title = "Enoch Yu"
 theme = 'hugo-theme-stack'
 
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
 [params]
-  mainSections = ["posts"]
+mainSections = ["posts"]
+themeStyle = "dark"
 
-  [params.article]
-    math = true
+[params.article]
+math = true
 
+[params.sidebar]
+subtitle = "Welcome to my blog!!"
+emoji    = "🇰🇷"
 
+[params.sidebar.avatar]
+enabled = true
+local   = false
+src     = "/images/profile.png"
+
+[taxonomies]
+category = "categories"
+tag      = "tags"
+
+#Home
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[menu.main.params]
+icon = "home"
+
+#Archives
+[[menu.main]]
+name = "Archives"
+url = "/archives/"
+weight = 2
+[menu.main.params]
+icon = "archives"
+
+#Youtube
+[[menu.social]]
+identifier = "youtube"
+name       = "Youtube"
+url        = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
+weight     = 1
+[menu.social.params]
+icon = "brand-youtube"
+
+#Github
+[[menu.social]]
+identifier = "github"
+name       = "GitHub"
+url        = "https://github.com/enochyu-official"
+weight     = 2
+[menu.social.params]
+icon = "brand-github"

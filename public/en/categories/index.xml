@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Enoch Yu</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>http://localhost:1313/en/categories/</link>
         <description>Recent content in Categories on Enoch Yu</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/en/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linux</title>
-        <link>http://localhost:1313/categories/linux/</link>
+        <link>http://localhost:1313/en/categories/linux/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/linux/</guid>
+        <guid>http://localhost:1313/en/categories/linux/</guid>
         <description></description>
         </item>
         <item>
         <title>Math</title>
-        <link>http://localhost:1313/categories/math/</link>
+        <link>http://localhost:1313/en/categories/math/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/math/</guid>
+        <guid>http://localhost:1313/en/categories/math/</guid>
         <description></description>
         </item>
         
