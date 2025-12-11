@@ -42,6 +42,38 @@ weight = 2
 [menu.main.params]
 icon = "archives"
 
+#Math
+[[menu.main]]
+name = "Math"
+url = "/categories/math/"
+weight = 3
+[menu.main.params]
+icon = "item"
+
+#Linux
+[[menu.main]]
+name = "Linux"
+url = "/categories/linux/"
+weight = 4
+[menu.main.params]
+icon = "item"
+
+#CTF
+[[menu.main]]
+name = "CTF"
+url = "/categories/ctf/"
+weight = 5
+[menu.main.params]
+icon = "item"
+
+#Miscellaneous
+[[menu.main]]
+name = "Miscellaneous"
+url = "/categories/misc/"
+weight = 6
+[menu.main.params]
+icon = "item"
+
 #Youtube
 [[menu.social]]
 identifier = "youtube"

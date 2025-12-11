@@ -1,0 +1,29 @@
+.article-list--compact .article-item,
+.article-list--tile .article-item {
+  transition:
+    transform 200ms ease,
+    box-shadow 200ms ease,
+    background-color 200ms ease,
+    border-color 200ms ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .article-list--compact .article-item:hover,
+  .article-list--tile .article-item:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+    transform: translateY(-10px) scale(1.05) rotate(20deg);
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .article-list--compact .article-item:hover,
+  .article-list--tile .article-item:hover {
+    background-color: rgba(0, 0, 0, 0.08);
+    transform: translateY(-10px) scale(1.05) rotate(20deg);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+  }
+}
+
