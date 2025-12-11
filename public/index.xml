@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Enoch Yu</title>
-        <link>http://localhost:1313/</link>
+        <link>https://enochyu-official.github.io/</link>
         <description>Recent content on Enoch Yu</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://enochyu-official.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Blog 1</title>
-        <link>http://localhost:1313/posts/blog1/</link>
+        <link>https://enochyu-official.github.io/posts/blog1/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/blog1/</guid>
+        <guid>https://enochyu-official.github.io/posts/blog1/</guid>
         <description>&lt;p&gt;$$
 \varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \cdots}}}
 $$&lt;/p&gt;
@@ -19,19 +19,19 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>Blog 1</title>
-        <link>http://localhost:1313/posts/blog3/</link>
+        <link>https://enochyu-official.github.io/posts/blog3/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/blog3/</guid>
+        <guid>https://enochyu-official.github.io/posts/blog3/</guid>
         <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hello
 &lt;/code&gt;&lt;/pre&gt;</description>
         </item>
         <item>
         <title>Blog 2</title>
-        <link>http://localhost:1313/posts/blog2/</link>
+        <link>https://enochyu-official.github.io/posts/blog2/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/blog2/</guid>
+        <guid>https://enochyu-official.github.io/posts/blog2/</guid>
         <description>&lt;p&gt;$$
 \varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \cdots}}}
 $$&lt;/p&gt;
@@ -39,10 +39,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>BLog 4</title>
-        <link>http://localhost:1313/posts/blog4/</link>
+        <link>https://enochyu-official.github.io/posts/blog4/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/blog4/</guid>
+        <guid>https://enochyu-official.github.io/posts/blog4/</guid>
         <description>&lt;p&gt;Hello World!!&lt;/p&gt;
 </description>
         </item>

@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/blog1/</loc>
+    <loc>https://enochyu-official.github.io/posts/blog1/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/blog3/</loc>
+    <loc>https://enochyu-official.github.io/posts/blog3/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/blog2/</loc>
+    <loc>https://enochyu-official.github.io/posts/blog2/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/blog4/</loc>
+    <loc>https://enochyu-official.github.io/posts/blog4/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://enochyu-official.github.io/categories/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ctf/</loc>
+    <loc>https://enochyu-official.github.io/categories/ctf/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://enochyu-official.github.io/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/linux/</loc>
+    <loc>https://enochyu-official.github.io/categories/linux/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/math/</loc>
+    <loc>https://enochyu-official.github.io/categories/math/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/miscellaneous/</loc>
+    <loc>https://enochyu-official.github.io/categories/miscellaneous/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://enochyu-official.github.io/posts/</loc>
     <lastmod>2025-12-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://enochyu-official.github.io/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://enochyu-official.github.io/tags/</loc>
   </url>
 </urlset>
