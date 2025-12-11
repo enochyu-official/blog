@@ -1,4 +1,4 @@
-baseURL = 'https://enochyu-official.github.io/'
+baseURL = 'https://enochyu-official.github.io/blog/'
 languageCode = 'en-us'
 title = "Enoch Yu"
 theme = 'hugo-theme-stack'
