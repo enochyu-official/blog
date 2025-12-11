@@ -19,8 +19,8 @@ emoji    = "🇰🇷"
 
 [params.sidebar.avatar]
 enabled = true
-local   = false
-src     = "/images/profile.png"
+local   = true
+src     = "img/profile.png"
 
 [taxonomies]
 category = "categories"

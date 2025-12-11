@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>CTF on Enoch Yu</title>
-        <link>http://localhost:1313/blog/categories/ctf/</link>
+        <link>https://enochyu-official.github.io/blog/categories/ctf/</link>
         <description>Recent content in CTF on Enoch Yu</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/ctf/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://enochyu-official.github.io/blog/categories/ctf/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>BLog 4</title>
-        <link>http://localhost:1313/blog/posts/blog4/</link>
+        <link>https://enochyu-official.github.io/blog/posts/blog4/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/posts/blog4/</guid>
+        <guid>https://enochyu-official.github.io/blog/posts/blog4/</guid>
         <description>&lt;p&gt;Hello World!!&lt;/p&gt;
 </description>
         </item>
