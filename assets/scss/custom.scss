@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   .article-list > article:nth-child(odd):hover {
-    transform: translateY(-4px) scale(1.02) rotateX(4deg) rotateY(-3deg);
+    transform: translateY(-4px) scale(1.02);
     box-shadow:
       0 26px 60px rgba(0, 0, 0, 0.7),
       0 0 22px rgba(255, 255, 255, 0.35);
@@ -22,7 +22,7 @@
   }
 
   .article-list > article:nth-child(even):hover {
-    transform: translateY(-4px) scale(1.02) rotateX(4deg) rotateY(3deg);
+    transform: translateY(-4px) scale(1.02);
     box-shadow:
       0 26px 60px rgba(0, 0, 0, 0.7),
       0 0 22px rgba(255, 255, 255, 0.35);
@@ -31,7 +31,7 @@
 }
 @media (prefers-color-scheme: light) {
   .article-list > article:nth-child(odd):hover {
-    transform: translateY(-4px) scale(1.02) rotateX(4deg) rotateY(-3deg);
+    transform: translateY(-4px) scale(1.02);
     box-shadow:
       0 22px 45px rgba(0, 0, 0, 0.35),
       0 0 18px rgba(0, 0, 0, 0.4);
@@ -39,7 +39,7 @@
   }
 
   .article-list > article:nth-child(even):hover {
-    transform: translateY(-4px) scale(1.02) rotateX(4deg) rotateY(3deg);
+    transform: translateY(-4px) scale(1.02);
     box-shadow:
       0 22px 45px rgba(0, 0, 0, 0.35),
       0 0 18px rgba(0, 0, 0, 0.4);
