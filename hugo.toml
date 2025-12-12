@@ -60,7 +60,7 @@ icon = "home"
 #Archives
 [[menu.main]]
 name = "Archives"
-url = "/archives/"
+url = "/page/archives/"
 weight = 2
 [menu.main.params]
 icon = "archives"
