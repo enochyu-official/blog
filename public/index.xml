@@ -12,15 +12,24 @@
         <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/blog/post/blog1/</guid>
-        <description>&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog
+        <description>&lt;h2 id=&#34;who-am-i&#34;&gt;Who am I?
+&lt;/h2&gt;&lt;p&gt;Hello!! Welcome to my personal blog where&lt;/p&gt;
+&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog
 &lt;/h2&gt;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;, when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;With all concerns, two reason allowed me to write this first post. The first reason is to overcome challenges that I face when using English. I remember a Christian missionary emphasizing the following quote in a retreat.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;If you do nothing, nothing will happen. So challenge yourself!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;The message from the missionary hit me hard. The quote allowed me to reflect myself again. I noticed Enoch who is aftraid to use &lt;em&gt;casual&lt;/em&gt; English because he may not sound like a native speaker. Writing academic texts are no problem. Therefore, I decided to write my blog in casual way to try and overcome the challenge.&lt;/p&gt;
+&lt;p&gt;The second reason for blogging is to record my academic journey. I found blogging as one of the best method to organize what I learned and share publically. I decided to publish my journey and resources publically in case someone finds them useful and to potentially receive any feedback. Here, I will mainly be blogging about learning Linux and Capture the Flag (CTF). I hope to see improved self when I look back at my blogs one day!!&lt;/p&gt;
 &lt;h2 id=&#34;contents&#34;&gt;Contents
-&lt;/h2&gt;&lt;div class=&#34;comments-note&#34;&gt;
+&lt;/h2&gt;&lt;p&gt;Below are the areas that I dedicate to write about.&lt;/p&gt;
+&lt;h3 id=&#34;math&#34;&gt;Math
+&lt;/h3&gt;&lt;p&gt;As a student pursuing to major in pure mathematics, I love to write about math and share solutions. Although I have published all my works in GitHub, this section is dedicated to topics that I was not able to post publically. Maybe I can share my progress and stories behind the scenes :))&lt;/p&gt;
+&lt;h3 id=&#34;linux-and-ctf&#34;&gt;Linux and CTF
+&lt;/h3&gt;&lt;h3 id=&#34;student-life&#34;&gt;Student Life
+&lt;/h3&gt;&lt;h3 id=&#34;miscellaneous&#34;&gt;Miscellaneous
+&lt;/h3&gt;&lt;div class=&#34;comments-note&#34;&gt;
   💬 &lt;strong&gt;Comments&lt;/strong&gt;&lt;br&gt;
   Posting a comment requires a free GitHub account!!
 &lt;/div&gt;

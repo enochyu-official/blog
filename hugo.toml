@@ -24,7 +24,7 @@ themeStyle = "dark"
 math = true
 
 [params.sidebar]
-subtitle = "Welcome to my blog!!"
+subtitle = "Welcome to my personal blog where I write about various topics!! Enjoy~!!"
 emoji    = "🇰🇷"
 
 [params.sidebar.avatar]
