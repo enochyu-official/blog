@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Enoch Yu (유에녹)</title>
-        <link>http://localhost:1313/blog/categories/</link>
+        <link>https://enochyu-official.github.io/blog/categories/</link>
         <description>Recent content in Categories on Enoch Yu (유에녹)</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://enochyu-official.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linux</title>
-        <link>http://localhost:1313/blog/categories/linux/</link>
+        <link>https://enochyu-official.github.io/blog/categories/linux/</link>
         <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/categories/linux/</guid>
+        <guid>https://enochyu-official.github.io/blog/categories/linux/</guid>
         <description></description>
         </item>
         <item>
         <title>Student Life</title>
-        <link>http://localhost:1313/blog/categories/student-life/</link>
+        <link>https://enochyu-official.github.io/blog/categories/student-life/</link>
         <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/categories/student-life/</guid>
+        <guid>https://enochyu-official.github.io/blog/categories/student-life/</guid>
         <description></description>
         </item>
         <item>
         <title>CTF</title>
-        <link>http://localhost:1313/blog/categories/ctf/</link>
+        <link>https://enochyu-official.github.io/blog/categories/ctf/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/categories/ctf/</guid>
+        <guid>https://enochyu-official.github.io/blog/categories/ctf/</guid>
         <description></description>
         </item>
         <item>
         <title>Math</title>
-        <link>http://localhost:1313/blog/categories/math/</link>
+        <link>https://enochyu-official.github.io/blog/categories/math/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/categories/math/</guid>
+        <guid>https://enochyu-official.github.io/blog/categories/math/</guid>
         <description></description>
         </item>
         <item>
         <title>Miscellaneous</title>
-        <link>http://localhost:1313/blog/categories/miscellaneous/</link>
+        <link>https://enochyu-official.github.io/blog/categories/miscellaneous/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/blog/categories/miscellaneous/</guid>
+        <guid>https://enochyu-official.github.io/blog/categories/miscellaneous/</guid>
         <description></description>
         </item>
         
