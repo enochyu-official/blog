@@ -7,8 +7,18 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
-mainSections = ["posts"]
+mainSections = ["post"]
 themeStyle = "dark"
+
+[params.widgets]
+  [[params.widgets.homepage]]
+  type = "search"
+
+  [[params.widgets.homepage]]
+  type = "archives"
+
+  [[params.widgets.page]]
+  type = "toc"
 
 [params.article]
 math = true
@@ -21,6 +31,19 @@ emoji    = "🇰🇷"
 enabled = true
 local   = true
 src     = "img/profile.png"
+
+[params.comments]
+enabled = true
+provider = "giscus"
+
+[params.comments.giscus]
+repo = "enochyu-official/blog"
+repoID = "R_kgDOQmE9xg"
+category = "General"
+categoryID = "DIC_kwDOQmE9xs4Czr9C"
+mapping = "pathname"
+theme = "auto"
+lang = "en"
 
 [taxonomies]
 category = "categories"
@@ -66,11 +89,19 @@ weight = 5
 [menu.main.params]
 icon = "item"
 
+#Student Life
+[[menu.main]]
+name = "Student Life"
+url = "/categories/student-life/"
+weight = 6
+[menu.main.params]
+icon = "item"
+
 #Miscellaneous
 [[menu.main]]
 name = "Miscellaneous"
 url = "/categories/miscellaneous/"
-weight = 6
+weight = 7
 [menu.main.params]
 icon = "item"
 
@@ -91,3 +122,4 @@ url        = "https://github.com/enochyu-official"
 weight     = 2
 [menu.social.params]
 icon = "brand-github"
+

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Miscellaneous on Enoch Yu</title>
-        <link>https://enochyu-official.github.io/blog/categories/miscellaneous/</link>
+        <link>http://localhost:1313/blog/categories/miscellaneous/</link>
         <description>Recent content in Miscellaneous on Enoch Yu</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://enochyu-official.github.io/blog/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Blog 1</title>
-        <link>https://enochyu-official.github.io/blog/posts/blog3/</link>
+        <link>http://localhost:1313/blog/post/blog3/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://enochyu-official.github.io/blog/posts/blog3/</guid>
+        <guid>http://localhost:1313/blog/post/blog3/</guid>
         <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hello
 &lt;/code&gt;&lt;/pre&gt;</description>
         </item>

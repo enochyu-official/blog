@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Enoch Yu</title>
+        <link>http://localhost:1313/blog/post/</link>
+        <description>Recent content in Posts on Enoch Yu</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>[README] From the Beginning: My First Post</title>
+        <link>http://localhost:1313/blog/post/blog1/</link>
+        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/blog1/</guid>
+        <description>&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog
+&lt;/h2&gt;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;, when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;With all concerns, two reason allowed me to write this first post. The first reason is to overcome challenges that I face when using English. I remember a Christian missionary emphasizing the following quote in a retreat.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you do nothing, nothing will happen. So challenge yourself!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The message from the missionary hit me hard. The quote allowed me to reflect myself again. I noticed Enoch who is aftraid to use &lt;em&gt;casual&lt;/em&gt; English because he may not sound like a native speaker. Writing academic texts are no problem. Therefore, I decided to write my blog in casual way to try and overcome the challenge.&lt;/p&gt;
+&lt;h2 id=&#34;contents&#34;&gt;Contents
+&lt;/h2&gt;&lt;div class=&#34;comments-note&#34;&gt;
+  💬 &lt;strong&gt;Comments&lt;/strong&gt;&lt;br&gt;
+  Posting a comment requires a free GitHub account!!
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
+        <title>BLog 5</title>
+        <link>http://localhost:1313/blog/post/blog5/</link>
+        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/blog5/</guid>
+        <description>&lt;p&gt;Hellow woerld&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Blog 1</title>
+        <link>http://localhost:1313/blog/post/blog3/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/blog3/</guid>
+        <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hello
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        <item>
+        <title>Blog 2</title>
+        <link>http://localhost:1313/blog/post/blog2/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/blog2/</guid>
+        <description>&lt;p&gt;$$
+\varphi = 1 + \frac{1}{1 + \frac{1}{1 + \frac{1}{1 + \cdots}}}
+$$&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>BLog 4</title>
+        <link>http://localhost:1313/blog/post/blog4/</link>
+        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/blog4/</guid>
+        <description>&lt;p&gt;Hello World!!&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
