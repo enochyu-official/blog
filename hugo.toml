@@ -1,6 +1,6 @@
 baseURL = 'https://enochyu-official.github.io/blog/'
 languageCode = 'en-us'
-title = "Enoch Yu"
+title = "Enoch Yu (유에녹)"
 theme = 'hugo-theme-stack'
 
 defaultContentLanguage = "en"
