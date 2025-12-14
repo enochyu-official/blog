@@ -9,6 +9,7 @@ defaultContentLanguageInSubdir = false
 [params]
 mainSections = ["post"]
 themeStyle = "dark"
+favicon = "favicon.ico"
 
 [params.widgets]
   [[params.widgets.homepage]]
