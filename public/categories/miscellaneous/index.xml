@@ -2,16 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Miscellaneous on Enoch Yu (유에녹)</title>
-        <link>https://enochyu-official.github.io/blog/categories/miscellaneous/</link>
+        <link>http://localhost:1313/blog/categories/miscellaneous/</link>
         <description>Recent content in Miscellaneous on Enoch Yu (유에녹)</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://enochyu-official.github.io/blog/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Building My Blog With Hugo and GitHub</title>
+        <link>http://localhost:1313/blog/post/post2/</link>
+        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/post2/</guid>
+        <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that &lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, &lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)
+&lt;/h2&gt;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones rated with CMS since no server-side processing is required when accessing.&lt;/p&gt;
+&lt;p&gt;Now there are multiple Static Site Generators. I personally found Hugo as the ideal SSG since I will have large amounts of posts, and Hugo is known to be fast with Go&amp;rsquo;s performace.&lt;/p&gt;
+&lt;p&gt;After generating the blog, there must be a hostig platform to actually deploy it. There are multiple options out there, but I chose to use GitHub Pages because it is free and I store my source codes in GitHub anyway. Here is a link to the &lt;a class=&#34;link&#34; href=&#34;https://github.com/enochyu-official/blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sources&lt;/a&gt; for those who are interested.&lt;/p&gt;
+&lt;h2 id=&#34;installing-hugo-and-making-repository-in-github&#34;&gt;Installing Hugo and Making Repository in GitHub
+&lt;/h2&gt;&lt;p&gt;If Hugo and code editors are installed,&lt;/p&gt;
+&lt;h2 id=&#34;choosing-theme&#34;&gt;Choosing Theme
+&lt;/h2&gt;&lt;p&gt;To avoid headaches from css and javascript, I decided to use a theme from &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Themes&lt;/a&gt;. There are great themes in the link to make our life easier, so I chose a theme called &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/themes/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To implement the theme as a submodule, we must run the following commands.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;my-custom-codes&#34;&gt;My Custom Codes
+&lt;/h2&gt;</description>
+        </item>
+        <item>
         <title>Blog 1</title>
-        <link>https://enochyu-official.github.io/blog/post/blog3/</link>
+        <link>http://localhost:1313/blog/post/blog3/</link>
         <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://enochyu-official.github.io/blog/post/blog3/</guid>
+        <guid>http://localhost:1313/blog/post/blog3/</guid>
         <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hello
 &lt;/code&gt;&lt;/pre&gt;</description>
         </item>
