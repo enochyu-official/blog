@@ -6,7 +6,73 @@
         <description>Recent content on Enoch Yu (유에녹)</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Building My Blog With Hugo and GitHub</title>
+        <link>http://localhost:1313/blog/post/post2/</link>
+        <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/post2/</guid>
+        <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that &lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, &lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)
+&lt;/h2&gt;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or hosting through SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones created with CMS since no server-side processing is required when accessing.&lt;/p&gt;
+&lt;p&gt;Now there are multiple Static Site Generators. I personally found Hugo as the ideal SSG since I will have large amounts of posts, and Hugo is known to be fast with Go&amp;rsquo;s performace.&lt;/p&gt;
+&lt;p&gt;After generating the blog, there must be a hostig platform to actually deploy it. There are multiple options out there, but I chose to use GitHub Pages because it is free and I store my source codes in GitHub anyway. Here is a link to the &lt;a class=&#34;link&#34; href=&#34;https://github.com/enochyu-official/blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;sources&lt;/a&gt; for those who are interested.&lt;/p&gt;
+&lt;h2 id=&#34;installing-hugo-and-making-repository-in-github&#34;&gt;Installing Hugo and Making Repository in GitHub
+&lt;/h2&gt;&lt;p&gt;To install Hugo, please refer to the official &lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/installation/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;installation guide&lt;/a&gt;. If you are on Windows, copy and paste &lt;code&gt;winget install Hugo.Hugo.Extended&lt;/code&gt; to your terminal to install. For Mac users with Homebrew, &lt;code&gt;brew install hugo&lt;/code&gt; will do the job. I don&amp;rsquo;t think I need to include one for Linux users :))&lt;/p&gt;
+&lt;p&gt;For code editors, I personally use terminal text editor Neovim due to its speed and flexibility. Here is the official &lt;a class=&#34;link&#34; href=&#34;https://neovim.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;installation guide&lt;/a&gt; for your interest. However, I believe other code editors are perfectly fine!&lt;/p&gt;
+&lt;p&gt;If you have Hugo and code editor ready to go, we need to create a repository in GitHub. I personally made a public repository named &lt;strong&gt;blog&lt;/strong&gt;. Next, we need to enter following commands in terminal.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd BLOG-NAME
+git init
+git add .
+git commit -m &amp;#34;Initial commit&amp;#34;
+git remote add origin
+git push -u origin main
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Sometimes, you many need to create a token in GitHub to run the final command. When creating, &amp;ldquo;repo&amp;rdquo; section must be checked!&lt;/p&gt;
+&lt;h2 id=&#34;choosing-theme&#34;&gt;Choosing Theme
+&lt;/h2&gt;&lt;p&gt;To avoid headaches from css and javascript, I decided to use a theme from &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Themes&lt;/a&gt;. There are great themes in the link to make our life easier, so I chose a theme called &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/themes/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Stack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To implement the theme as a submodule, we must run the following commands in your project.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To integrate the theme, please update your &lt;code&gt;hugo.toml&lt;/code&gt;. It should include the following.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;baseURL = &amp;#39;https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/&amp;#39;
+languageCode = &amp;#39;en-us&amp;#39;
+title = &amp;#34;NAME OF YOUR BLOG&amp;#34;
+theme = &amp;#39;hugo-theme-stack&amp;#39;
+
+[taxonomies]
+category = &amp;#34;categories&amp;#34;
+tag      = &amp;#34;tags&amp;#34;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;creating-initial-post&#34;&gt;Creating Initial Post
+&lt;/h2&gt;&lt;p&gt;To write a post, create a Markdown file &lt;code&gt;YOUR-POST.md&lt;/code&gt; in &lt;code&gt;BLOG-NAME/content/post&lt;/code&gt;. For users on Unix-based operating system, &lt;code&gt;touch YOUR-POST.md&lt;/code&gt; creates the empty file.&lt;/p&gt;
+&lt;p&gt;In your Markdown file, it sould include the following.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;---
+author: YOUR NAME
+title: YOUR TITLE
+date: DATE
+categories: [&amp;#34;YOUR CATEGORY&amp;#34;]
+---
+
+YOUR CONTENTS
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;After writing your initial post, the following commands must be ran to update the GitHub repository.&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git add .
+git commit -m &amp;#34;YOUR-CHANGE&amp;#34;
+git push
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Next, in GitHub repository, please check &amp;ldquo;Actions&amp;rdquo; for the published blog.&lt;/p&gt;
+&lt;p&gt;Your blog is successfully published!!&lt;/p&gt;
+&lt;div class=&#34;comments-note&#34;&gt;
+  💬 &lt;strong&gt;Comments&lt;/strong&gt;&lt;br&gt;
+  Please don&#39;t hesitate to comment any questions or feedback!!
+  Posting a comment requires a free GitHub account :))
+&lt;/div&gt;
+
+</description>
+        </item>
+        <item>
         <title>[README] From the Beginning: My First Post</title>
         <link>http://localhost:1313/blog/post/post1/</link>
         <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
@@ -38,60 +104,10 @@
 &lt;/h3&gt;&lt;p&gt;As one may have guessed, this category is for posts that do not fit to categories above :))&lt;/p&gt;
 &lt;div class=&#34;comments-note&#34;&gt;
   💬 &lt;strong&gt;Comments&lt;/strong&gt;&lt;br&gt;
-  Posting a comment requires a free GitHub account!!
+  Please don&#39;t hesitate to comment any questions or feedback!!
+  Posting a comment requires a free GitHub account :))
 &lt;/div&gt;
 
-</description>
-        </item>
-        <item>
-        <title>BLog 5</title>
-        <link>http://localhost:1313/blog/post/blog5/</link>
-        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post/blog5/</guid>
-        <description>&lt;p&gt;Hellow woerld&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Building My Blog With Hugo and GitHub</title>
-        <link>http://localhost:1313/blog/post/post2/</link>
-        <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post/post2/</guid>
-        <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that &lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, &lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)
-&lt;/h2&gt;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones rated with CMS since no server-side processing is required when accessing.&lt;/p&gt;
-&lt;p&gt;Now there are multiple Static Site Generators. I personally found Hugo as the ideal SSG since I will have large amounts of posts, and Hugo is known to be fast with Go&amp;rsquo;s performace.&lt;/p&gt;
-&lt;p&gt;After generating the blog, there must be a hostig platform to actually deploy it. There are multiple options out there, but I chose to use GitHub Pages because it is free and I store my source codes in GitHub anyway. Here is a link to the &lt;a class=&#34;link&#34; href=&#34;https://github.com/enochyu-official/blog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;sources&lt;/a&gt; for those who are interested.&lt;/p&gt;
-&lt;h2 id=&#34;installing-hugo-and-making-repository-in-github&#34;&gt;Installing Hugo and Making Repository in GitHub
-&lt;/h2&gt;&lt;p&gt;If Hugo and code editors are installed,&lt;/p&gt;
-&lt;h2 id=&#34;choosing-theme&#34;&gt;Choosing Theme
-&lt;/h2&gt;&lt;p&gt;To avoid headaches from css and javascript, I decided to use a theme from &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo Themes&lt;/a&gt;. There are great themes in the link to make our life easier, so I chose a theme called &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/themes/hugo-theme-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Stack&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;To implement the theme as a submodule, we must run the following commands.&lt;/p&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
-git submodule update --init --recursive
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;my-custom-codes&#34;&gt;My Custom Codes
-&lt;/h2&gt;</description>
-        </item>
-        <item>
-        <title>Blog 1</title>
-        <link>http://localhost:1313/blog/post/blog3/</link>
-        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post/blog3/</guid>
-        <description>&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;hello
-&lt;/code&gt;&lt;/pre&gt;</description>
-        </item>
-        <item>
-        <title>BLog 4</title>
-        <link>http://localhost:1313/blog/post/blog4/</link>
-        <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/blog/post/blog4/</guid>
-        <description>&lt;p&gt;Hello World!!&lt;/p&gt;
 </description>
         </item>
         
