@@ -20,4 +20,16 @@
 })();
 </script>
 
+<script>
+(function () {
+  document.querySelectorAll("[data-gc-path]").forEach(el => {
+    const path = el.getAttribute("data-gc-path");
+    fetch("https://johnkim.goatcounter.com/counter/" + encodeURIComponent(path) + ".json?cb=" + Date.now())
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => { el.textContent = d.count; })
+      .catch(() => {});
+  });
+})();
+</script>
+
 

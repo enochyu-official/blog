@@ -49,9 +49,17 @@
 	{{ if .WordCount }}
 	    <div>
 		{{ partial "helper/icon" "word-count" }}
-   		 <span class="article-time--words">
+   		<span class="article-time--words">
        		    {{ .WordCount }} words
-    		 </span>
+    		</span>
+	    </div>
+	{{ end }}
+
+	{{ if .RelPermalink }}
+	    <div>
+    		{{ partial "helper/icon" "eye" }}
+    		<span class="article-time--views" data-gc-path="{{ .RelPermalink }}">
+    		</span>
 	    </div>
 	{{ end }}
     </footer>
