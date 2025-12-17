@@ -21,15 +21,16 @@
 </script>
 
 <script>
-(function () {
+document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("[data-gc-path]").forEach(el => {
     const path = el.getAttribute("data-gc-path");
-    fetch("https://johnkim.goatcounter.com/counter/" + encodeURIComponent(path) + ".json?cb=" + Date.now())
-      .then(r => r.ok ? r.json() : Promise.reject())
-      .then(d => { el.textContent = d.count; })
-      .catch(() => {});
-  });
-})();
-</script>
+    const url = "https://enochyu.goatcounter.com/counter/" + encodeURI(path) + ".json?cb=" + Date.now();
 
+    fetch(url)
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+      .then(d => { el.textContent = d.count; })
+      .catch(() => { el.textContent = ""; });
+  });
+});
+</script>
 

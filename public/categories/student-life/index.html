@@ -319,7 +319,7 @@
     <div class="archives-year">
       <a role="button" tabindex="0" onclick="return false;">
         <span class="year">Visitor Counts</span>
-        <span class="count" id="gc-total-views"></span>
+        <span class="count" id="gc-total-views">loading...</span>
       </a>
     </div>
   </div>
@@ -425,18 +425,24 @@
 
 <script>
 (function () {
-  const els = document.querySelectorAll("[data-gc-path]");
-  if (!els.length) return;
+  document.querySelectorAll("[data-gc-path]").forEach(el => {
+    const path = el.getAttribute("data-gc-path"); 
+    const url = "https://enochyu.goatcounter.com/counter/" + encodeURI(path) + ".json?cb=" + Date.now();
 
-  els.forEach(el => {
-    const path = el.getAttribute("data-gc-path");
-    fetch("https://johnkim.goatcounter.com/counter/" + encodeURIComponent(path) + ".json?cb=" + Date.now())
-      .then(r => r.ok ? r.json() : Promise.reject(r.status))
+    fetch(url)
+      .then(r => {
+        if (!r.ok) throw new Error("HTTP " + r.status + " " + url);
+        return r.json();
+      })
       .then(d => { el.textContent = d.count; })
-      .catch(() => {});
+      .catch(err => {
+        console.error(err);
+        el.textContent = "—";
+      });
   });
 })();
 </script>
+
 
 
     </body>

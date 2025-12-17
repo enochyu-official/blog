@@ -54,14 +54,12 @@
     		</span>
 	    </div>
 	{{ end }}
-
-	{{ if .RelPermalink }}
+	
+	{{ $u := urls.Parse .Permalink }}
 	    <div>
-    		{{ partial "helper/icon" "eye" }}
-    		<span class="article-time--views" data-gc-path="{{ .RelPermalink }}">
-    		</span>
+  		{{ partial "helper/icon" "eye" }}
+  		<span class="article-time--views" data-gc-path="{{ $u.Path }}">loading...</span>
 	    </div>
-	{{ end }}
     </footer>
     {{ end }}
 
