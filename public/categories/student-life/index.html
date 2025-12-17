@@ -303,25 +303,28 @@
 
   <div class="widget-archive--list">
     <div class="archives-year">
-      <a href="#">
+      <a role="button" tabindex="0" onclick="return false;">
         <span class="year">Total Words</span>
         <span class="count">2078</span>
       </a>
     </div>
+
     <div class="archives-year">
-      <a href="#">
+      <a role="button" tabindex="0" onclick="return false;">
         <span class="year">Total Posts</span>
         <span class="count">4</span>
       </a>
     </div>
+
     <div class="archives-year">
-      <a href="#">
-        <span class="year">Total Views</span>
-        <span class="count">—</span>
+      <a role="button" tabindex="0" onclick="return false;">
+        <span class="year">Visitor Counts</span>
+        <span class="count" id="gc-total-views"></span>
       </a>
     </div>
   </div>
 </section>
+
 
 
             
@@ -400,6 +403,21 @@
 </script>
 <script data-goatcounter="https://enochyu.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+
+<script>
+(function () {
+  fetch("https://enochyu.goatcounter.com/counter/TOTAL.json")
+    .then(r => r.json())
+    .then(d => {
+      const el = document.getElementById("gc-total-views");
+      if (el) el.textContent = d.count;
+    })
+    .catch(() => {});
+})();
+</script>
+
+
+
 
     </body>
 </html>
