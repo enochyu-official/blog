@@ -17,23 +17,26 @@
 
   <div class="widget-archive--list">
     <div class="archives-year">
-      <a href="#">
+      <a role="button" tabindex="0" onclick="return false;">
         <span class="year">Total Words</span>
         <span class="count">{{ $words }}</span>
       </a>
     </div>
+
     <div class="archives-year">
-      <a href="#">
+      <a role="button" tabindex="0" onclick="return false;">
         <span class="year">Total Posts</span>
         <span class="count">{{ $posts }}</span>
       </a>
     </div>
+
     <div class="archives-year">
-      <a href="#">
-        <span class="year">Total Views</span>
-        <span class="count">—</span>
+      <a role="button" tabindex="0" onclick="return false;">
+        <span class="year">Visitor Counts</span>
+        <span class="count" id="gc-total-views"></span>
       </a>
     </div>
   </div>
 </section>
+
 

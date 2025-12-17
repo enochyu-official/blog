@@ -1,2 +1,17 @@
-<script data-goatcounter="https://enochyu.goatcounter.com/count"
-        async src="//gc.zgo.at/count.js"></script>
+<script>
+(function () {
+  function wait() {
+    if (window.goatcounter && window.goatcounter.visit_count) {
+      window.goatcounter.visit_count({
+        path: 'TOTAL',
+        append: '#gc-total-views',
+        noLink: true,
+        replace: true
+      })
+    } else setTimeout(wait, 100)
+  }
+  wait()
+})()
+</script>
+
+
