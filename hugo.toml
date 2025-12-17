@@ -20,7 +20,10 @@ favicon = "favicon.ico"
 
   [[params.widgets.page]]
   type = "toc"
-
+  
+  [[params.widgets.homepage]]
+  type = "blog-stats"
+  
 [params.article]
 math = true
 
