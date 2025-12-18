@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Linux on Enoch Yu (유에녹)</title>
+        <link>http://localhost:1313/blog/tags/linux/</link>
+        <description>Recent content in Linux on Enoch Yu (유에녹)</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/blog/tags/linux/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Linux Day 1: Getting Started</title>
+        <link>http://localhost:1313/blog/post/post4/</link>
+        <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/blog/post/post4/</guid>
+        <description>&lt;p&gt;Welcome to my first post for learning Linux. Here, I would like to share a few fundamental terms and definitions related to Linux. Before I proceed, I would like to express my sincere gratitude to all contributors who built Linux glossaries. Without the glossaries, I cannot image that suffer that I may have gone through. In your best interest, &lt;a class=&#34;link&#34; href=&#34;https://kernelnewbies.org/KernelGlossary&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;KernelGlossary&lt;/a&gt; and &lt;a class=&#34;link&#34; href=&#34;https://kc7nyr.com/wp-content/uploads/2022/02/2006_Bookmatter_BeginningUbuntuLinux.pdf&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Glossary of Linux Terms&lt;/a&gt; are the two main sources that I utilized for this post. Moreover, please note that I am writing this series to organize and share what I learned. Therefore, please don&amp;rsquo;t hesitate to comment for any feedback to improve the post.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-linux-and-why-use-it&#34;&gt;What is Linux and Why Use It?
+&lt;/h2&gt;&lt;p&gt;First and foremost, let&amp;rsquo;s discuss what Linux is. Althouh Linux is commonly referred to as a full operating system (os), it is technically a kernel, a core program of operating system. Linux kernel, created by Linus Torvalds, combined with GNU project, a collection of essential software, forms GNU/Linux operating system, commonly referred to as &lt;em&gt;Linux&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-linux-terminology&#34;&gt;Basic Linux Terminology
+&lt;/h2&gt;&lt;h2 id=&#34;linux-distributions&#34;&gt;Linux Distributions
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>

@@ -47,4 +47,58 @@
   }
 }
 
+.paginav{
+  display:flex;
+  margin-top:28px;
+  border-radius:16px;
+
+  background: var(--card-background, rgba(255,255,255,.03));
+  border: 1px solid var(--border-color, rgba(255,255,255,.08));
+  overflow:hidden;
+}
+
+.paginav a{
+  width:50%;
+  padding:16px;
+  text-decoration:none;
+
+  transition: background-color .15s ease;
+}
+
+.paginav a:hover{
+  background: rgba(255,255,255,.04);
+}
+
+.paginav a + a{
+  border-left: 1px solid var(--border-color, rgba(255,255,255,.08));
+}
+
+.paginav .title{
+  display:block;
+  font-size:1.0rem;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+  opacity:.6;
+  margin-bottom:6px;
+}
+
+.paginav .next{
+  text-align:right;
+}
+
+@media (max-width: 640px){
+  .paginav{
+    flex-direction:column;
+  }
+  .paginav a{
+    width:100%;
+  }
+  .paginav a + a{
+    border-left:none;
+    border-top: 1px solid var(--border-color, rgba(255,255,255,.08));
+  }
+  .paginav .next{
+    text-align:left;
+  }
+}
 

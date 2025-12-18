@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/blog/page/archives/'>
 
-<link rel="stylesheet" href="/blog/scss/style.min.7db9902eb6b40129cec67d2388f08c60568de05245142af04745437382e1e716.css"><meta property='og:title' content="Archives">
+<link rel="stylesheet" href="/blog/scss/style.min.7d96c8bb172ef6fef70a88b08964e80d56bfe7b39228c18dc93209682716da69.css"><meta property='og:title' content="Archives">
 <meta property='og:description' content="Welcome to my personal blog where I write about various topics!! Enjoy~!!">
 <meta property='og:url' content='http://localhost:1313/blog/page/archives/'>
 <meta property='og:site_name' content='Enoch Yu (유에녹)'>
@@ -165,25 +165,13 @@
         
         
         <li >
-            <a href='/blog/categories/linux/' >
+            <a href='/blog/categories/computer-science/' >
                 
                 
                 
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
                 
-                <span>Linux</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/blog/categories/ctf/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
-                
-                <span>CTF</span>
+                <span>Computer Science</span>
             </a>
         </li>
         
@@ -248,12 +236,12 @@
                 
                     
 <article class="">
-    <a href="/blog/categories/linux/">
+    <a href="/blog/categories/computer-science/">
         
         
 
         <div class="article-details">
-            <h2 class="article-title">Linux</h2>
+            <h2 class="article-title">Computer Science</h2>
         </div>
     </a>
 </article>
@@ -398,25 +386,18 @@
 </script>
 
 <script>
-(function () {
+document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("[data-gc-path]").forEach(el => {
-    const path = el.getAttribute("data-gc-path"); 
+    const path = el.getAttribute("data-gc-path");
     const url = "https://enochyu.goatcounter.com/counter/" + encodeURI(path) + ".json?cb=" + Date.now();
 
     fetch(url)
-      .then(r => {
-        if (!r.ok) throw new Error("HTTP " + r.status + " " + url);
-        return r.json();
-      })
+      .then(r => r.ok ? r.json() : Promise.reject(r.status))
       .then(d => { el.textContent = d.count; })
-      .catch(err => {
-        console.error(err);
-        el.textContent = "—";
-      });
+      .catch(() => { el.textContent = ""; });
   });
-})();
+});
 </script>
-
 
 
     </body>

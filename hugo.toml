@@ -16,16 +16,20 @@ favicon = "favicon.ico"
   type = "search"
 
   [[params.widgets.homepage]]
+  type = "blog-stats"
+
+  [[params.widgets.homepage]]
   type = "archives"
+
+  [[params.widgets.homepage]]
+  type = "tag-cloud"
 
   [[params.widgets.page]]
   type = "toc"
-  
-  [[params.widgets.homepage]]
-  type = "blog-stats"
-  
+    
 [params.article]
 math = true
+showNextPrev = true
 
 [params.sidebar]
 subtitle = "Welcome to my personal blog where I write about various topics!! Enjoy~!!"
@@ -79,17 +83,9 @@ icon = "item"
 
 #Linux
 [[menu.main]]
-name = "Linux"
-url = "/categories/linux/"
+name = "Computer Science"
+url = "/categories/computer-science/"
 weight = 4
-[menu.main.params]
-icon = "item"
-
-#CTF
-[[menu.main]]
-name = "CTF"
-url = "/categories/ctf/"
-weight = 5
 [menu.main.params]
 icon = "item"
 
@@ -97,7 +93,7 @@ icon = "item"
 [[menu.main]]
 name = "Student Life"
 url = "/categories/student-life/"
-weight = 6
+weight = 5
 [menu.main.params]
 icon = "item"
 
@@ -105,7 +101,7 @@ icon = "item"
 [[menu.main]]
 name = "Miscellaneous"
 url = "/categories/miscellaneous/"
-weight = 7
+weight = 6
 [menu.main.params]
 icon = "item"
 
