@@ -29,6 +29,7 @@
     border-color: rgba(255, 255, 255, 0.35);
   }
 }
+
 @media (prefers-color-scheme: light) {
   .article-list > article:nth-child(odd):hover {
     transform: translateY(-4px) scale(1.02);
@@ -84,6 +85,7 @@
 
 .paginav .next{
   text-align:right;
+  margin-left:auto;
 }
 
 @media (max-width: 640px){
