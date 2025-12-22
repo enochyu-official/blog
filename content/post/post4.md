@@ -1,17 +1,23 @@
 ---
 author: Enoch Yu
-title: "Linux Day 1: Getting Started"
-date: 2025-12-15
+title: "CTF Day 1: Getting Started"
+date: 2025-12-21
 categories: ["Computer Science"]
-tags: ["Linux"]
+tags: ["CTF"]
 ---
 
-Welcome to my first post for learning Linux. Here, I would like to share a few fundamental terms and definitions related to Linux. Before I proceed, I would like to express my sincere gratitude to all contributors who built Linux glossaries. Without the glossaries, I cannot image that suffer that I may have gone through. In your best interest, [KernelGlossary](https://kernelnewbies.org/KernelGlossary) and [Glossary of Linux Terms](https://kc7nyr.com/wp-content/uploads/2022/02/2006_Bookmatter_BeginningUbuntuLinux.pdf) are the two main sources that I utilized for this post. Moreover, please note that I am writing this series to organize and share what I learned. Therefore, please don't hesitate to comment for any feedback to improve the post.
+If you have read the [first post](https://enochyu-official.github.io/blog/post/post1/#computer-science), you probably know that I recently started studying for Capture the Flag (CTF) events. As I dive deeper into this new challenge, I decided to record my journey because why not? Through this blog, I hope to bring positive influence to all who are starting CTF challenges. Moreover, because I am not a professional in this field, any feedback are welcomed. Then, let's get started!!
 
-## What is Linux and Why Use It?
-First and foremost, let's discuss what Linux is. Althouh Linux is commonly referred to as a full operating system (os), it is technically a kernel, a core program of operating system. Linux kernel, created by Linus Torvalds, combined with GNU project, a collection of essential software, forms GNU/Linux operating system, commonly referred to as *Linux*.
+## What is CTF?
+First and foremost, what is CTF? Capture the Flag in terms of cybersecurity is an activity that assists in acquiring knowledge in cybersecurity for the participants. The objective is to find flags hidden somewhere in the provided prompt either individually or by teams, while participating as a team is more common. The three main types of CTF are Jeopardy-style CTF, Attack-Defence CTF and Mixed.
 
-## Basic Linux Terminology
+Participants in Jeopardy-style must uncover flags hidden in possible areas. In Attack-Defence CTF, two teams compete with each other by first creating protection of their own flags in a given amount of time. Next, two teams make an effort to catch the flag of the other team while protecting their own flags. In the mixed round, as indicated by the name, both the Jeopardy-style and Attack-Defense are utilized.
 
+## Various Fields in CTF
+Now, there are various fields to study for CTF. 
 
-## Linux Distributions
+## General Structure of My Journey
+Instead of learning all the prerequisite tools such as Linux commands and different programming languages, I would like to learn from beginner challenges. Unlike Olympiad mathematics where you learn the tools, its proofs, and applications, I found that countless people start with challenges from [Hack The Box](https://www.hackthebox.com/), [picoCTF](https://picoctf.org/), [TryHackMe](https://tryhackme.com/), and [Bandit](https://overthewire.org/wargames/bandit/) from [OverTheWire](https://overthewire.org/wargames/). Most importantly, searching and debugging on my own would be the most important factor.
+
+Writeups
+
