@@ -35,7 +35,6 @@ Sometimes, you many need to create a token in GitHub to run the final command. W
 
 ## Choosing Theme
 
-To avoid headaches from css and javascript, I decided to use a theme from [Hugo Themes](https://themes.gohugo.io/). There are great themes in the link to make our life easier, so I chose a theme called [Stack](https://themes.gohugo.io/themes/hugo-theme-stack/).
 
 To implement the theme as a submodule, we must run the following commands in your project.
 ```
