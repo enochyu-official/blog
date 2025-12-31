@@ -1,125 +1,76 @@
 baseURL = 'https://enochyu-official.github.io/blog/'
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = "Enoch Yu (유에녹)"
-theme = 'hugo-theme-stack'
+theme = 'EnochBlogTheme'
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 
 [params]
-mainSections = ["post"]
-themeStyle = "dark"
-favicon = "favicon.ico"
+  author = "Enoch Yu"
+  avatar = "/images/avatar.png"
+  mainSections = ["posts"]
+  favicon = "favicon.ico"
 
-[params.widgets]
-  [[params.widgets.homepage]]
-  type = "search"
-
-  [[params.widgets.homepage]]
-  type = "blog-stats"
-
-  [[params.widgets.homepage]]
-  type = "archives"
-
-  [[params.widgets.homepage]]
-  type = "tag-cloud"
-
-  [[params.widgets.page]]
-  type = "toc"
-    
 [params.article]
-math = true
-showNextPrev = true
+  math = true
 
-[params.sidebar]
-subtitle = "Welcome to my personal blog where I write about various topics!! Enjoy~!!"
-emoji    = "🇰🇷"
-
-[params.sidebar.avatar]
-enabled = true
-local   = true
-src     = "img/profile.png"
+[params.social]
+  github = "https://github.com/enochyu-official"
+  youtube = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
+  linkedin = "linkedin.com"
+  email = "your@email.com"
 
 [params.comments]
-enabled = true
-provider = "giscus"
+  enabled = true
+  provider = "giscus"
 
 [params.comments.giscus]
-repo = "enochyu-official/blog"
-repoID = "R_kgDOQmE9xg"
-category = "General"
-categoryID = "DIC_kwDOQmE9xs4Czr9C"
-mapping = "pathname"
-theme = "auto"
-lang = "en"
+  repo = "enochyu-official/blog"
+  repoID = "R_kgDOQmE9xg"
+  category = "General"
+  categoryID = "DIC_kwDOQmE9xs4Czr9C"
+  mapping = "pathname"
+  theme = "auto"
+  lang = "en"
 
 [taxonomies]
-category = "categories"
-tag      = "tags"
+  category = "categories"
+  tag      = "tags"
 
-#Home
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  [markup.highlight]
+
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[menu.main.params]
-icon = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
 
-#Archives
 [[menu.main]]
-name = "Archives"
-url = "/page/archives/"
-weight = 2
-[menu.main.params]
-icon = "archives"
+  name = "Archives"
+  url = "/page/archives/"
+  weight = 2
 
-#Math
 [[menu.main]]
-name = "Math"
-url = "/categories/math/"
-weight = 3
-[menu.main.params]
-icon = "item"
+  name = "Math"
+  url = "/categories/math/"
+  weight = 3
 
-#Linux
 [[menu.main]]
-name = "Computer Science"
-url = "/categories/computer-science/"
-weight = 4
-[menu.main.params]
-icon = "item"
+  name = "Computer Science"
+  url = "/categories/computer-science/"
+  weight = 4
 
-#Student Life
 [[menu.main]]
-name = "Student Life"
-url = "/categories/student-life/"
-weight = 5
-[menu.main.params]
-icon = "item"
+  name = "Student Life"
+  url = "/categories/student-life/"
+  weight = 5
 
-#Miscellaneous
 [[menu.main]]
-name = "Miscellaneous"
-url = "/categories/miscellaneous/"
-weight = 6
-[menu.main.params]
-icon = "item"
-
-#Youtube
-[[menu.social]]
-identifier = "youtube"
-name       = "Youtube"
-url        = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
-weight     = 1
-[menu.social.params]
-icon = "brand-youtube"
-
-#Github
-[[menu.social]]
-identifier = "github"
-name       = "GitHub"
-url        = "https://github.com/enochyu-official"
-weight     = 2
-[menu.social.params]
-icon = "brand-github"
-
+  name = "Miscellaneous"
+  url = "/categories/miscellaneous/"
+  weight = 6
