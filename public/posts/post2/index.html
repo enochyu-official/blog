@@ -98,7 +98,7 @@
         <span class="mx-2">•</span>
         <i class="far fa-clock"></i> 3 min read
         <span class="mx-2">•</span>
-        <i class="far fa-file-text"></i> 612 words
+        <i class="far fa-file-text"></i> 610 words
         <span class="mx-2">•</span>
         <i class="far fa-eye"></i> Loading... views
 
@@ -128,10 +128,10 @@ git commit -m &#34;Initial commit&#34;
 git remote add origin
 git push -u origin main
 </code></pre><p>Sometimes, you many need to create a token in GitHub to run the final command. When creating, &ldquo;repo&rdquo; section must be checked!</p>
-<h2 id="choosing-theme">Choosing Theme</h2>
-<p>To avoid headaches from css and javascript, I decided to use a theme from <a href="https://themes.gohugo.io/">Hugo Themes</a>. There are great themes in the link to make our life easier, so I chose a theme called <a href="https://themes.gohugo.io/themes/hugo-theme-stack/">Stack</a>.</p>
-<p>To implement the theme as a submodule, we must run the following commands in your project.</p>
-<pre tabindex="0"><code>git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+<h2 id="theme">Theme</h2>
+<p>As for my theme, to be free from copyright issues, I decided to create my own theme. My Hugo theme was created by merging and reading multiple themes from <a href="https://themes.gohugo.io/">Hugo Themes</a>.</p>
+<p>If you wish to implement the theme as a submodule, we must run the following commands in your project.</p>
+<pre tabindex="0"><code>git submodule add https://github.com/enochyu-official/EnochBlogTheme themes/EnochBlogTheme
 git submodule update --init --recursive
 </code></pre><p>To integrate the theme, please update your <code>hugo.toml</code>. It should include the following.</p>
 <pre tabindex="0"><code>baseURL = &#39;https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/&#39;

@@ -33,12 +33,13 @@ git push -u origin main
 ```
 Sometimes, you many need to create a token in GitHub to run the final command. When creating, "repo" section must be checked!
 
-## Choosing Theme
+## Theme
 
+As for my theme, to be free from copyright issues, I decided to create my own theme. My Hugo theme was created by merging and reading multiple themes from [Hugo Themes](https://themes.gohugo.io/).
 
-To implement the theme as a submodule, we must run the following commands in your project.
+If you wish to implement the theme as a submodule, we must run the following commands in your project.
 ```
-git submodule add https://github.com/CaiJimmy/hugo-theme-stack/ themes/hugo-theme-stack
+git submodule add https://github.com/enochyu-official/EnochBlogTheme themes/EnochBlogTheme
 git submodule update --init --recursive
 ```
 
