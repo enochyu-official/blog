@@ -46,9 +46,15 @@ git submodule update --init --recursive
 To integrate the theme, please update your `hugo.toml`. It should include the following.
 ```
 baseURL = 'https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/'
-languageCode = 'en-us'
+languageCode = 'en-US'
 title = "NAME OF YOUR BLOG"
-theme = 'hugo-theme-stack'
+theme = 'EnochBlogTheme'
+
+[params]
+  author = "YOUR NAME"
+  avatar = "/images/avatar.png"
+  mainSections = ["posts"]
+  favicon = "favicon.ico"
 
 [taxonomies]
 category = "categories"
