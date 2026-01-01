@@ -18,3 +18,4 @@ google7dae713ba1dc289d.html
 .DS_Store
 
 /resources/_gen
+.hugo_build.lock
