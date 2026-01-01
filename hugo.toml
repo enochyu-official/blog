@@ -16,23 +16,14 @@ defaultContentLanguageInSubdir = false
   math = true
 
 [params.social]
-  github = "https://github.com/enochyu-official"
   youtube = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
-  linkedin = "linkedin.com"
+  github = "https://github.com/enochyu-official"
+  linkedin = "https://www.linkedin.com/in/enoch-yu-94448939a/"
   email = "your@email.com"
 
 [params.comments]
   enabled = true
   provider = "giscus"
-
-[params.comments.giscus]
-  repo = "enochyu-official/blog"
-  repoID = "R_kgDOQmE9xg"
-  category = "General"
-  categoryID = "DIC_kwDOQmE9xs4Czr9C"
-  mapping = "pathname"
-  theme = "auto"
-  lang = "en"
 
 [taxonomies]
   category = "categories"
