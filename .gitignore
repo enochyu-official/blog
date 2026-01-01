@@ -19,3 +19,4 @@ google7dae713ba1dc289d.html
 
 /resources/_gen
 .hugo_build.lock
+/layouts/partials/*
