@@ -11,8 +11,6 @@ defaultContentLanguageInSubdir = false
   avatar = "/images/avatar.png"
   mainSections = ["posts"]
   favicon = "favicon.ico"
-
-[params.article]
   math = true
 
 [params.social]
