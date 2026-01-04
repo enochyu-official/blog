@@ -9,9 +9,6 @@
         <i class="far fa-clock"></i> {{ .ReadingTime }} min read
         <span class="mx-2">|</span>
         <i class="far fa-file-text"></i> {{ .WordCount }} words
-        <span class="mx-2">|</span>
-        <i class="far fa-eye"></i> 
-        <span class="page-views" data-gc-path="{{ .RelPermalink }}">Loading...</span> views
 
         {{ with .Params.categories }} 
         <span class="mx-2">|</span>
@@ -73,6 +70,18 @@
         {{ end }}
       </div>
     </nav>
+
+    <div id="page-view"></div>
+    <script>
+    var t = setInterval(function() {
+      if (window.goatcounter && window.goatcounter.visit_count) {
+        clearInterval(t)
+        window.goatcounter.visit_count({append: '#page-view'})
+      }
+    }, 100)
+    </script>
+    <script data-goatcounter="https://enochyu-blog.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
 </div>
 {{ end }}
 
