@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir = false
   youtube = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
   github = "https://github.com/enochyu-official"
   linkedin = "https://www.linkedin.com/in/enoch-yu-94448939a/"
-  email = "your@email.com"
+  email = ""
 
 [params.comments]
   enabled = true
