@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enoch Yu (유에녹)</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Enoch Yu (유에녹)</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Mini-Project 1: Coffee Shop</title>
+      <link>http://localhost:1313/blog/posts/post5/</link>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post5/</guid>
+      <description>&lt;p&gt;For my first JavaScript mini-project, I decided to create a Coffee Shop simply because I love coffee and coffee shops. For your reference, here is the &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;Coffee Shop&lt;/a&gt; and the &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop&#34;&gt;source code&lt;/a&gt; of the project. Please feel free to leave any feedback in the comment section below for improvements!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-1&#34;&gt;Introducing Project 1&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I wanted each phase to be separated with new sections and slides. With each input, the robot receiving the order will retain the information and utilize it in next phase. To practice using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag in html, I decided to change the background color and robot&amp;rsquo;s expression in new slides. Notice that when the customer entered a value that is not in the menu, the robot&amp;rsquo;s expression will change. Moreover, in the last phase, the brew time is equal to two times the number of coffee ordered.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CTF Day 1: Getting Started</title>
+      <link>http://localhost:1313/blog/posts/post4/</link>
+      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post4/</guid>
+      <description>&lt;p&gt;If you have read the &lt;a href=&#34;https://enochyu-official.github.io/blog/post/post1/#computer-science&#34;&gt;first post&lt;/a&gt;, you probably know that I recently started studying for Capture the Flag (CTF) events. As I dive deeper into this new challenge, I decided to record my journey because why not? Through this blog, I hope to bring positive influence to all who are starting CTF challenges. Moreover, because I am not a professional in this field, any feedback are welcomed. Then, let&amp;rsquo;s get started!!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Accepting Failure: After Giving It My All</title>
+      <link>http://localhost:1313/blog/posts/post3/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post3/</guid>
+      <description>&lt;p&gt;This post discusses about the recent emotional deterioration that I faced. If you are currently undergoing a challenge, I sincerely wish you to cheer up!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-disqualification&#34;&gt;The Disqualification&lt;/h2&gt;&#xA;&lt;p&gt;One may wonder: how big of a challenge can a high school student face? Well, I believe regardless of age, countless people encounter emotional challenges. For instance, failing an exam, receiving rejections, and breaking-up with the significant other may cause distress. As a student who wishes to major in pure mathematics, disqualifying from the second stage of team selecting process for the IMO (International Mathematical Olympiad) hit me hard.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building My Blog With Hugo and GitHub</title>
+      <link>http://localhost:1313/blog/posts/post2/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post2/</guid>
+      <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that &lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, &lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)&lt;/h2&gt;&#xA;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or hosting through SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones created with CMS since no server-side processing is required when accessing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[README] From the Beginning: My First Post</title>
+      <link>http://localhost:1313/blog/posts/post1/</link>
+      <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post1/</guid>
+      <description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics! I am a student from South Korea, and is currently attending Laurel Springs School. Please check out my &lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and &lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;, when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Archives</title>
+      <link>http://localhost:1313/blog/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/archives/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
