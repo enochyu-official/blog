@@ -6,21 +6,21 @@
     <description>Recent content in Posts on Enoch Yu (유에녹)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OverTheWire Bandit: Level 0-4</title>
+      <link>http://localhost:1313/blog/posts/post6/</link>
+      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post6/</guid>
+      <description>&lt;p&gt;One of the most recommended way to learn Linux commands and basics in CTF is completing &lt;a href=&#34;https://overthewire.org/wargames/bandit/&#34;&gt;Bandit&lt;/a&gt; from &lt;a href=&#34;https://overthewire.org/wargames/&#34;&gt;OverTheWire&lt;/a&gt;. Therefore, I decided to complete this challenge first before any other CTF challenges. Here, I am planning to share task, my approach, and lessons that I learned from each level. Moreover, I sincerely wish to express my gratitude towards the developers of this platform! Then, let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;h2 id=&#34;level-0&#34;&gt;Level 0&lt;/h2&gt;&#xA;&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;&#xA;&lt;p&gt;Below is the task for &lt;a href=&#34;https://overthewire.org/wargames/bandit/bandit0.html&#34;&gt;Level 0&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JavaScript Mini-Project 1: Coffee Shop</title>
       <link>http://localhost:1313/blog/posts/post5/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/posts/post5/</guid>
       <description>&lt;p&gt;For my first JavaScript mini-project, I decided to create a Coffee Shop simply because I love coffee and coffee shops. For your reference, here is the &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;Coffee Shop&lt;/a&gt; and the &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop&#34;&gt;source code&lt;/a&gt; of the project. Please feel free to leave any feedback in the comment section below for improvements!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-1&#34;&gt;Introducing Project 1&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I wanted each phase to be separated with new sections and slides. With each input, the robot receiving the order will retain the information and utilize it in next phase. To practice using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag in html, I decided to change the background color and robot&amp;rsquo;s expression in new slides. Notice that when the customer entered a value that is not in the menu, the robot&amp;rsquo;s expression will change. Moreover, in the last phase, the brew time is equal to two times the number of coffee ordered.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>OverTheWire Bandit: Level 0-4</title>
-      <link>http://localhost:1313/blog/posts/post6/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/post6/</guid>
-      <description>&lt;p&gt;One of the most recommended way to learn Linux commands and basics in CTF is completing &lt;a href=&#34;https://overthewire.org/wargames/bandit/&#34;&gt;Bandit&lt;/a&gt; from &lt;a href=&#34;https://overthewire.org/wargames/&#34;&gt;OverTheWire&lt;/a&gt;. Therefore, I decided to complete this challenge first before any other CTF challenges. Here, I am planning to share task, my approach, and lessons that I learned from each level. Moreover, I sincerely wish to express my gratitude towards the developers of this platform! Then, let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;h2 id=&#34;level-0&#34;&gt;Level 0&lt;/h2&gt;&#xA;&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;&#xA;&lt;p&gt;Below is the task for &lt;a href=&#34;https://overthewire.org/wargames/bandit/bandit0.html&#34;&gt;Level 0&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CTF Day 1: Getting Started</title>
