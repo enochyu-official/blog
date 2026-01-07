@@ -14,7 +14,7 @@ In this project, I wanted each phase to be separated with new sections and slide
 ## Reviewing the Source Code
 ### HTML
 The full HTML markup is available in [GitHub](https://github.com/enochyu-official/js-mini-projects/blob/main/projects/project1_CoffeeShop/index.html). Because most of my sections follow same style as the first section, here is a brief description of the first section.
-```
+```html
 <section class="slide" id="greeting">
   <div class="ascii-background">
     <pre>
@@ -73,7 +73,7 @@ Here is the link to my [CSS Style Sheet](https://github.com/enochyu-official/js-
 Here is the link to full [JS script](https://github.com/enochyu-official/js-mini-projects/blob/main/projects/project1_CoffeeShop/script.js). Because this is my first script writing entirely on my own with online tutorials, the script may not be in its ideal version. Anyhow, here is a brief description to each parts.
 
 Unlike Python, modern JavaScript requires declaring of the variable before assigning it.
-```
+```javascript
 let order;
 let price;
 let nextSlide;
@@ -81,7 +81,7 @@ const menuItem = [ "Espresso", "espresso", "Ristretto", "ristretto", "Americano"
 ```
 I first declared the variables that will be used before defining any functions.
 
-```
+```javascript
 function NextSlide(slideButton){
   nextSlide = document.getElementById(slideButton);
 
@@ -92,13 +92,13 @@ function NextSlide(slideButton){
 ```
 This is the part that defines the function named "NextSlide". It will first define a variable "nextSlide" as an element with id "slideButton" in the document. Then, the element with id "slideButton" will be displayed as a block. Lastly, the "nextSlide" will be visible with a smooth scroll. Its application is shown below.
 
-```
+```javascript
 document.getElementById("project-button").onclick = () => NextSlide("greeting");
 ```
 After clicking an element with id "project-button", the function "NextSlide" will be initiated on "greeting".
 
 Similarly, below defines the behavior when the element with id "name-button" is clicked. Here, `().textContent` will help display the content in dedicated locations. Moreover, `${name}` will reuse the saved information from the input.
-```
+```javascript
 document.getElementById("name-button").onclick = function(){
   let name = document.getElementById("name").value;
 
@@ -123,7 +123,7 @@ document.getElementById("name-button").onclick = function(){
 Here, I utilized the function NextSlide again to scroll to the next slide.
 
 Below is the last section that introduces new concept of if-else statement.
-```
+```javascript
 function OrderOutput(order) {
   document.getElementById("order-reorder").textContent = "";
   document.getElementById("order-remenu").textContent = "";
@@ -222,7 +222,7 @@ The commented if-else statements is the original script that I used, and it work
 
 
 ## Lessons
-From this project, I was able be more familiarized with different properties such as `document.getElementById`, `().textContent`, switch statement, and logical structures. Moreover, I realized that making a website responsive requires love and care. Mobile-first approach and using responsive components such as `rem` was also a new concept that I learned. As for my next project, I am planning to create a calculator as a student who LOVES math!!!
+From this project, I was able be more familiarized with different properties such as `document.getElementById`, `().textContent`, switch statement, and logical structures. Moreover, I realized that making a website responsive requires love and care. Mobile-first approach and using responsive components such as `rem` was also a new concept that I learned. As for my next project, I am planning to make a stopwatch with JavaScript!!! Thank you~
 
 
 {{< comments-note >}}

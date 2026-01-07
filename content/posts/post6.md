@@ -18,11 +18,11 @@ Below is the task for [Level 0](https://overthewire.org/wargames/bandit/bandit0.
 SSH, which stand for Secure Shell, is a cryptographic network protocol that ensures secure connections between remote devices over unsecure network.
 
 By reading through `man ssh`, I was able to know that `-p` is a flag that will allow me to connect on a port. Therefore, I ran the following command.
-```
+```bash
 ssh bandit.labs.overthewire.org -p 2220
 ```
 However, I realized that I need to utilize the username *bandit0*. Therefore, I tried the following command.
-```
+```bash
 ssh bandit0@bandit.labs.overthewire.org -p 2220
 ```
 After typing in the password, I was able to join the game.
@@ -39,7 +39,7 @@ Below is the task for [Level 1](https://overthewire.org/wargames/bandit/bandit1.
 
 ### My Solution
 As a NeoVim user, I realized that `ls -a` will help me find the password. After locating the file, I ran
-```
+```bash
 cat readme
 ```
 to display the content of the file in terminal. As you probably have guessed, `nano readme` works too!
@@ -58,7 +58,7 @@ Below is the task for [Level 2](https://overthewire.org/wargames/bandit/bandit2.
 
 ### My Solution
 Similar to Level 1, I used `ls` to display the visible files. However, `cat -` did not work this time as it started with a dash. Therefore, I explicitly identified the file with the following command.
-```
+```bash
 cat ./-
 ```
 With the password, I was able to move on to the next level.
@@ -75,7 +75,7 @@ Below is the task for [Level 3](https://overthewire.org/wargames/bandit/bandit3.
 
 ### My Solution
 In command line, either quotations or backslash `\` is required to use space in name of a file. Therefore, both
-```
+```bash
 cat ./"-- spaces in this filename --"
 cat ./--\ spaces\ in\ this\ filename--
 ```
@@ -93,11 +93,11 @@ Below is the task for [Level 4](https://overthewire.org/wargames/bandit/bandit4.
 
 ### My Solution
 To list the hidden files with the name that start with a period, I decided to utilize `ls` with flag `-a`. After running `ls -a`, I was able to find a folder named "inhere". To check the contents inside the file,
-```
+```bash
 ls -a inhere
 ```
 was executed, which listed a file named "...Hiding-From-You". To access the contents inside the file, I ran the following commend in order.
-```
+```bash
 cd inhere
 cat ...Hiding-From-You
 ```

@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
 
-<link rel="stylesheet" href="/blog/css/bundle.min.d18232fb14750c5d8949e9f132a6b8b62316719d385c8916cd84fb612136f77b.css" integrity="sha256-0YIy&#43;xR1DF2JSenxMqa4tiMWcZ04XIkWzYT7YSE293s=">
+<link rel="stylesheet" href="/blog/css/bundle.min.e57226e44e1e61cbf51ce0bc61a26a4abc0b149d36ffeaeafd0b242a8d33cdaf.css" integrity="sha256-5XIm5E4eYcv1HOC8YaJqSrwLFJ02/&#43;rq/QskKo0zza8=">
 
 <script type="application/ld+json">
 {
@@ -99,7 +99,7 @@
         <span class="mx-2">|</span>
         <i class="far fa-clock"></i> 5 min read
         <span class="mx-2">|</span>
-        <i class="far fa-file-text"></i> 1024 words
+        <i class="far fa-file-text"></i> 1022 words
 
          
         <span class="mx-2">|</span>
@@ -117,193 +117,193 @@
 <h2 id="reviewing-the-source-code">Reviewing the Source Code</h2>
 <h3 id="html">HTML</h3>
 <p>The full HTML markup is available in <a href="https://github.com/enochyu-official/js-mini-projects/blob/main/projects/project1_CoffeeShop/index.html">GitHub</a>. Because most of my sections follow same style as the first section, here is a brief description of the first section.</p>
-<pre tabindex="0"><code>&lt;section class=&#34;slide&#34; id=&#34;greeting&#34;&gt;
-  &lt;div class=&#34;ascii-background&#34;&gt;
-    &lt;pre&gt;
-                    o                              o
-                     \                            /
-                      \                          /
-                       \                        /
-                        \______________________/
-                        |                      |
-                        |   /\     oo     /\   |
-                        |______________________|
-    ___________________/                        \___________________ 
-   /                                                                \
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-@  |                                                                |  *
- \ |                                                                | /
-  \|                                                                |/
-   #                                                                #
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   |                                                                |
-   \________________________________________________________________/
-    &lt;/pre&gt;
-  &lt;/div&gt;
-
-  &lt;div class=&#34;robot-input&#34; id=&#34;greeting-div&#34;&gt;
-    &lt;label id=&#34;question-name&#34;&gt;Hi!! What is your name?&lt;/label&gt;
-    &lt;br&gt; 
-    &lt;input class=&#34;inputBox&#34; id=&#34;name&#34;&gt;
-    &lt;button class=&#34;button&#34; id=&#34;name-button&#34;&gt;Submit&lt;/button&gt;
-  &lt;/div&gt;
-&lt;/section&gt;
-</code></pre><p>I wrapped my ASCII art and buttons in a section with class &ldquo;slides&rdquo; and id &ldquo;greeting&rdquo; because I would be the first phase of the order that contains the art and input box. Moreover, the robot in the division with class &ldquo;ascii-background&rdquo; was drawn inside <code>&lt;pre&gt;</code> tag since it preserves the white spaces.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#f92672">section</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;slide&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;greeting&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;ascii-background&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">pre</span>&gt;
+</span></span><span style="display:flex;"><span>                    o                              o
+</span></span><span style="display:flex;"><span>                     \                            /
+</span></span><span style="display:flex;"><span>                      \                          /
+</span></span><span style="display:flex;"><span>                       \                        /
+</span></span><span style="display:flex;"><span>                        \______________________/
+</span></span><span style="display:flex;"><span>                        |                      |
+</span></span><span style="display:flex;"><span>                        |   /\     oo     /\   |
+</span></span><span style="display:flex;"><span>                        |______________________|
+</span></span><span style="display:flex;"><span>    ___________________/                        \___________________ 
+</span></span><span style="display:flex;"><span>   /                                                                \
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>@  |                                                                |  *
+</span></span><span style="display:flex;"><span> \ |                                                                | /
+</span></span><span style="display:flex;"><span>  \|                                                                |/
+</span></span><span style="display:flex;"><span>   #                                                                #
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   |                                                                |
+</span></span><span style="display:flex;"><span>   \________________________________________________________________/
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">pre</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;robot-input&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;greeting-div&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">label</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;question-name&#34;</span>&gt;Hi!! What is your name?&lt;/<span style="color:#f92672">label</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">br</span>&gt; 
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">input</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;inputBox&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;name&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">button</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;button&#34;</span> <span style="color:#a6e22e">id</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;name-button&#34;</span>&gt;Submit&lt;/<span style="color:#f92672">button</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">section</span>&gt;
+</span></span></code></pre></div><p>I wrapped my ASCII art and buttons in a section with class &ldquo;slides&rdquo; and id &ldquo;greeting&rdquo; because I would be the first phase of the order that contains the art and input box. Moreover, the robot in the division with class &ldquo;ascii-background&rdquo; was drawn inside <code>&lt;pre&gt;</code> tag since it preserves the white spaces.</p>
 <p>In the next division, the actual input and buttons were defined. Id and class were used to define function and the style of the elements.</p>
 <h3 id="css">CSS</h3>
 <p>Here is the link to my <a href="https://github.com/enochyu-official/js-mini-projects/blob/main/projects/project1_CoffeeShop/style.css">CSS Style Sheet</a>. Because styling the elements does not significantly affect the motive of the project, please review the file and provide any feedback!</p>
 <h3 id="js">JS</h3>
 <p>Here is the link to full <a href="https://github.com/enochyu-official/js-mini-projects/blob/main/projects/project1_CoffeeShop/script.js">JS script</a>. Because this is my first script writing entirely on my own with online tutorials, the script may not be in its ideal version. Anyhow, here is a brief description to each parts.</p>
 <p>Unlike Python, modern JavaScript requires declaring of the variable before assigning it.</p>
-<pre tabindex="0"><code>let order;
-let price;
-let nextSlide;
-const menuItem = [ &#34;Espresso&#34;, &#34;espresso&#34;, &#34;Ristretto&#34;, &#34;ristretto&#34;, &#34;Americano&#34;, &#34;americano&#34;, &#34;Cappuccino&#34;, &#34;cappuccino&#34; ];
-</code></pre><p>I first declared the variables that will be used before defining any functions.</p>
-<pre tabindex="0"><code>function NextSlide(slideButton){
-  nextSlide = document.getElementById(slideButton);
-
-  document.getElementById(slideButton).style.display = &#34;block&#34;;
-
-  nextSlide.scrollIntoView({ behavior: &#34;smooth&#34; });
-};
-</code></pre><p>This is the part that defines the function named &ldquo;NextSlide&rdquo;. It will first define a variable &ldquo;nextSlide&rdquo; as an element with id &ldquo;slideButton&rdquo; in the document. Then, the element with id &ldquo;slideButton&rdquo; will be displayed as a block. Lastly, the &ldquo;nextSlide&rdquo; will be visible with a smooth scroll. Its application is shown below.</p>
-<pre tabindex="0"><code>document.getElementById(&#34;project-button&#34;).onclick = () =&gt; NextSlide(&#34;greeting&#34;);
-</code></pre><p>After clicking an element with id &ldquo;project-button&rdquo;, the function &ldquo;NextSlide&rdquo; will be initiated on &ldquo;greeting&rdquo;.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">order</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">price</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">nextSlide</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">menuItem</span> <span style="color:#f92672">=</span> [ <span style="color:#e6db74">&#34;Espresso&#34;</span>, <span style="color:#e6db74">&#34;espresso&#34;</span>, <span style="color:#e6db74">&#34;Ristretto&#34;</span>, <span style="color:#e6db74">&#34;ristretto&#34;</span>, <span style="color:#e6db74">&#34;Americano&#34;</span>, <span style="color:#e6db74">&#34;americano&#34;</span>, <span style="color:#e6db74">&#34;Cappuccino&#34;</span>, <span style="color:#e6db74">&#34;cappuccino&#34;</span> ];
+</span></span></code></pre></div><p>I first declared the variables that will be used before defining any functions.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">NextSlide</span>(<span style="color:#a6e22e">slideButton</span>){
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">nextSlide</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#a6e22e">slideButton</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#a6e22e">slideButton</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">nextSlide</span>.<span style="color:#a6e22e">scrollIntoView</span>({ <span style="color:#a6e22e">behavior</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;smooth&#34;</span> });
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p>This is the part that defines the function named &ldquo;NextSlide&rdquo;. It will first define a variable &ldquo;nextSlide&rdquo; as an element with id &ldquo;slideButton&rdquo; in the document. Then, the element with id &ldquo;slideButton&rdquo; will be displayed as a block. Lastly, the &ldquo;nextSlide&rdquo; will be visible with a smooth scroll. Its application is shown below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;project-button&#34;</span>).<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> () =&gt; <span style="color:#a6e22e">NextSlide</span>(<span style="color:#e6db74">&#34;greeting&#34;</span>);
+</span></span></code></pre></div><p>After clicking an element with id &ldquo;project-button&rdquo;, the function &ldquo;NextSlide&rdquo; will be initiated on &ldquo;greeting&rdquo;.</p>
 <p>Similarly, below defines the behavior when the element with id &ldquo;name-button&rdquo; is clicked. Here, <code>().textContent</code> will help display the content in dedicated locations. Moreover, <code>${name}</code> will reuse the saved information from the input.</p>
-<pre tabindex="0"><code>document.getElementById(&#34;name-button&#34;).onclick = function(){
-  let name = document.getElementById(&#34;name&#34;).value;
-
-  document.getElementById(&#34;opening-statement&#34;).textContent =
-    `Nice to meet you ${name}!\n` +
-    `Below is the available menu:`;
-
-  document.getElementById(&#34;menu&#34;).textContent =
-    &#34;  Espresso: $3\n&#34; +
-    &#34;  Ristretto: $2.5\n&#34; +
-    &#34;  Americano: $4\n&#34; +
-    &#34;  Cappuccino: $5&#34;;
-
-  document.getElementById(&#34;order-statement&#34;).textContent =
-    `What would you like to order today?`;
-
-  document.getElementById(&#34;ordering&#34;).style.display = &#34;block&#34;;
-
-  NextSlide(&#34;ordering&#34;);
-};
-</code></pre><p>Here, I utilized the function NextSlide again to scroll to the next slide.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;name-button&#34;</span>).<span style="color:#a6e22e">onclick</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">function</span>(){
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">let</span> <span style="color:#a6e22e">name</span> <span style="color:#f92672">=</span> document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;name&#34;</span>).<span style="color:#a6e22e">value</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;opening-statement&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">`Nice to meet you </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">name</span><span style="color:#e6db74">}</span><span style="color:#e6db74">!\n`</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">`Below is the available menu:`</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;menu&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;  Espresso: $3\n&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;  Ristretto: $2.5\n&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;  Americano: $4\n&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;  Cappuccino: $5&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;order-statement&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">`What would you like to order today?`</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;ordering&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">NextSlide</span>(<span style="color:#e6db74">&#34;ordering&#34;</span>);
+</span></span><span style="display:flex;"><span>};
+</span></span></code></pre></div><p>Here, I utilized the function NextSlide again to scroll to the next slide.</p>
 <p>Below is the last section that introduces new concept of if-else statement.</p>
-<pre tabindex="0"><code>function OrderOutput(order) {
-  document.getElementById(&#34;order-reorder&#34;).textContent = &#34;&#34;;
-  document.getElementById(&#34;order-remenu&#34;).textContent = &#34;&#34;;
-
-  /* 
-  while (true) {
-    if (order == &#34;Espresso&#34;) {
-      price = 3;
-      break;
-  } else if (order == &#34;Ristretto&#34;) {
-      price = 2.5;
-      break;
-  } else if (order == &#34;Americano&#34;) {
-      price = 4;
-      break;
-  } else if (order == &#34;Cappuccino&#34;) {
-      price = 5;
-      break;
-  } else {
-      document.getElementById(&#34;order-reorder&#34;).textContent =
-        `I am sorry. ${order} is currently not available. Please select from the menu below.`;
-      document.getElementById(&#34;order-remenu&#34;).textContent =
-        &#34;  Espresso: $3\n&#34; +
-        &#34;  Ristretto: $2.5\n&#34; +
-        &#34;  Americano: $4\n&#34; +
-        &#34;  Cappuccino: $5&#34;;
-
-      document.getElementById(&#34;reorder-input&#34;).style.display = &#34;block&#34;;
-      document.getElementById(&#34;reorder-button&#34;).style.display = &#34;block&#34;;
-    }
-  };
-  */
- 
-  switch (order) {
-    case &#34;Espresso&#34;:
-      price = 3;
-      break;
-
-    case &#34;espresso&#34;:
-      price = 3;
-      break;
-
-    case &#34;Ristretto&#34;:
-      price = 2.5;
-      break;
-
-    case &#34;ristretto&#34;:
-      price = 2.5;
-      break;
-
-    case &#34;Americano&#34;:
-      price = 4;
-      break;
-
-    case &#34;americano&#34;:
-      price = 4;
-      break;
-
-    case &#34;Cappuccino&#34;:
-      price = 5;
-      break;
-
-    case &#34;cappuccino&#34;:
-      price = 5;
-      break;
-
-    default:
-      document.getElementById(&#34;first-ascii&#34;).style.display = &#34;none&#34;;
-      document.getElementById(&#34;second-ascii&#34;).style.display = &#34;block&#34;;
-      document.getElementById(&#34;order-reorder&#34;).textContent =
-        `I am sorry. ${order} is currently not available.\n` +
-        `Please select from the menu below.`;
-
-      document.getElementById(&#34;order-remenu&#34;).textContent =
-        &#34;  Espresso: $3\n&#34; +
-        &#34;  Ristretto: $2.5\n&#34; +
-        &#34;  Americano: $4\n&#34; +
-        &#34;  Cappuccino: $5&#34;;
-
-      document.getElementById(&#34;first-order&#34;).style.display = &#34;none&#34;;
-      document.getElementById(&#34;reorder-input&#34;).style.display = &#34;block&#34;;
-      document.getElementById(&#34;reorder-button&#34;).style.display = &#34;block&#34;;
-
-      return;
-  };
-
-  document.getElementById(&#34;number-statement&#34;).textContent =
-    `How many cups of ${order} would you like?`;
-
-  NextSlide(&#34;ordering-number&#34;);
-  document.getElementById(&#34;ordering-number&#34;).style.display = &#34;block&#34;;
-  document.getElementById(&#34;number-ascii&#34;).style.display = &#34;block&#34;;
-}
-</code></pre><p>The commented if-else statements is the original script that I used, and it works fine. However, because I am not a huge fan of using if-else statements numerous times, I decided to use switch statement, which is a great replacement. From there, the same logic and properties were used to complete the project.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="color:#66d9ef">function</span> <span style="color:#a6e22e">OrderOutput</span>(<span style="color:#a6e22e">order</span>) {
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;order-reorder&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;order-remenu&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#75715e">/* 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  while (true) {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    if (order == &#34;Espresso&#34;) {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      price = 3;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      break;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  } else if (order == &#34;Ristretto&#34;) {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      price = 2.5;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      break;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  } else if (order == &#34;Americano&#34;) {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      price = 4;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      break;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  } else if (order == &#34;Cappuccino&#34;) {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      price = 5;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      break;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  } else {
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      document.getElementById(&#34;order-reorder&#34;).textContent =
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        `I am sorry. ${order} is currently not available. Please select from the menu below.`;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      document.getElementById(&#34;order-remenu&#34;).textContent =
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        &#34;  Espresso: $3\n&#34; +
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        &#34;  Ristretto: $2.5\n&#34; +
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        &#34;  Americano: $4\n&#34; +
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">        &#34;  Cappuccino: $5&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      document.getElementById(&#34;reorder-input&#34;).style.display = &#34;block&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">      document.getElementById(&#34;reorder-button&#34;).style.display = &#34;block&#34;;
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">    }
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  };
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">  */</span>
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">switch</span> (<span style="color:#a6e22e">order</span>) {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Espresso&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;espresso&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Ristretto&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.5</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;ristretto&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">2.5</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Americano&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;americano&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;Cappuccino&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#e6db74">&#34;cappuccino&#34;</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">price</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">break</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span>
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;first-ascii&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;none&#34;</span>;
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;second-ascii&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;order-reorder&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">`I am sorry. </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">order</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> is currently not available.\n`</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">`Please select from the menu below.`</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;order-remenu&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;  Espresso: $3\n&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;  Ristretto: $2.5\n&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;  Americano: $4\n&#34;</span> <span style="color:#f92672">+</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e6db74">&#34;  Cappuccino: $5&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;first-order&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;none&#34;</span>;
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;reorder-input&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>      document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;reorder-button&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span>;
+</span></span><span style="display:flex;"><span>  };
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;number-statement&#34;</span>).<span style="color:#a6e22e">textContent</span> <span style="color:#f92672">=</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">`How many cups of </span><span style="color:#e6db74">${</span><span style="color:#a6e22e">order</span><span style="color:#e6db74">}</span><span style="color:#e6db74"> would you like?`</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">NextSlide</span>(<span style="color:#e6db74">&#34;ordering-number&#34;</span>);
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;ordering-number&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>  document.<span style="color:#a6e22e">getElementById</span>(<span style="color:#e6db74">&#34;number-ascii&#34;</span>).<span style="color:#a6e22e">style</span>.<span style="color:#a6e22e">display</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;block&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>The commented if-else statements is the original script that I used, and it works fine. However, because I am not a huge fan of using if-else statements numerous times, I decided to use switch statement, which is a great replacement. From there, the same logic and properties were used to complete the project.</p>
 <h2 id="lessons">Lessons</h2>
-<p>From this project, I was able be more familiarized with different properties such as <code>document.getElementById</code>, <code>().textContent</code>, switch statement, and logical structures. Moreover, I realized that making a website responsive requires love and care. Mobile-first approach and using responsive components such as <code>rem</code> was also a new concept that I learned. As for my next project, I am planning to create a calculator as a student who LOVES math!!!</p>
+<p>From this project, I was able be more familiarized with different properties such as <code>document.getElementById</code>, <code>().textContent</code>, switch statement, and logical structures. Moreover, I realized that making a website responsive requires love and care. Mobile-first approach and using responsive components such as <code>rem</code> was also a new concept that I learned. As for my next project, I am planning to make a stopwatch with JavaScript!!! Thank you~</p>
 <div class="comments-note">
   💬 <strong>Comments</strong><br>
   Please don't hesitate to comment any questions or feedback!!

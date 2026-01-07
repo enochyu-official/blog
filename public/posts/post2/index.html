@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
 
-<link rel="stylesheet" href="/blog/css/bundle.min.d18232fb14750c5d8949e9f132a6b8b62316719d385c8916cd84fb612136f77b.css" integrity="sha256-0YIy&#43;xR1DF2JSenxMqa4tiMWcZ04XIkWzYT7YSE293s=">
+<link rel="stylesheet" href="/blog/css/bundle.min.e57226e44e1e61cbf51ce0bc61a26a4abc0b149d36ffeaeafd0b242a8d33cdaf.css" integrity="sha256-5XIm5E4eYcv1HOC8YaJqSrwLFJ02/&#43;rq/QskKo0zza8=">
 
 <script type="application/ld+json">
 {
@@ -114,55 +114,55 @@
         <p>When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses <em>wordpress.com</em>. However, I noticed that <em>wordpress.com</em> would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, <em>why don&rsquo;t I build one myself?</em></p>
 <h2 id="static-site-generator-ssg">Static Site Generator (SSG)</h2>
 <p>I had two options of hosting via CMS (Content Management System) or hosting through SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones created with CMS since no server-side processing is required when accessing.</p>
-<p>Now there are multiple Static Site Generators. I personally found Hugo as the ideal SSG since I will have large amounts of posts, and Hugo is known to be fast with Go&rsquo;s performace.</p>
-<p>After generating the blog, there must be a hostig platform to actually deploy it. There are multiple options out there, but I chose to use GitHub Pages because it is free and I store my source codes in GitHub anyway. Here is a link to the <a href="https://github.com/enochyu-official/blog">sources</a> for those who are interested.</p>
+<p>Now there are multiple Static Site Generators. I personally found Hugo as the ideal SSG since I will have large amounts of posts, and Hugo is known to be fast with Go&rsquo;s performance.</p>
+<p>After generating the blog, there must be a hosting platform to actually deploy it. There are multiple options out there, but I chose to use GitHub Pages because it is free and I store my source codes in GitHub anyway. Here is a link to the <a href="https://github.com/enochyu-official/blog">sources</a> for those who are interested.</p>
 <h2 id="installing-hugo-and-making-repository-in-github">Installing Hugo and Making Repository in GitHub</h2>
 <p>To install Hugo, please refer to the official <a href="https://gohugo.io/installation/">installation guide</a>. If you are on Windows, copy and paste <code>winget install Hugo.Hugo.Extended</code> to your terminal to install. For Mac users with Homebrew, <code>brew install hugo</code> will do the job. I don&rsquo;t think I need to include one for Linux users :))</p>
-<p>For code editors, I personally use terminal text editor Neovim due to its speed and flexibility. Here is the official <a href="https://neovim.io/">installation guide</a> for your interest. However, I believe other code editors are perfectly fine!</p>
+<p>For code editors, I personally use terminal text editor NeoVim due to its speed and flexibility. Here is the official <a href="https://neovim.io/">installation guide</a> for your interest. However, I believe other code editors are perfectly fine!</p>
 <p>If you have Hugo and code editor ready to go, we need to create a repository in GitHub. I personally made a public repository named <strong>blog</strong>. Next, we need to enter following commands in terminal.</p>
-<pre tabindex="0"><code>cd BLOG-NAME
-git init
-git add .
-git commit -m &#34;Initial commit&#34;
-git remote add origin
-git push -u origin main
-</code></pre><p>Sometimes, you many need to create a token in GitHub to run the final command. When creating, &ldquo;repo&rdquo; section must be checked!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd BLOG-NAME
+</span></span><span style="display:flex;"><span>git init
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
+</span></span><span style="display:flex;"><span>git remote add origin
+</span></span><span style="display:flex;"><span>git push -u origin main
+</span></span></code></pre></div><p>Sometimes, you many need to create a token in GitHub to run the final command. When creating, &ldquo;repo&rdquo; section must be checked!</p>
 <h2 id="theme">Theme</h2>
 <p>As for my theme, to be free from copyright issues, I decided to create my own theme. My Hugo theme was created by merging and reading multiple themes from <a href="https://themes.gohugo.io/">Hugo Themes</a>.</p>
 <p>If you wish to implement the theme as a submodule, we must run the following commands in your project.</p>
-<pre tabindex="0"><code>git submodule add https://github.com/enochyu-official/EnochBlogTheme themes/EnochBlogTheme
-git submodule update --init --recursive
-</code></pre><p>To integrate the theme, please update your <code>hugo.toml</code>. It should include the following.</p>
-<pre tabindex="0"><code>baseURL = &#39;https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/&#39;
-languageCode = &#39;en-US&#39;
-title = &#34;NAME OF YOUR BLOG&#34;
-theme = &#39;EnochBlogTheme&#39;
-
-[params]
-  author = &#34;YOUR NAME&#34;
-  avatar = &#34;/images/avatar.png&#34;
-  mainSections = [&#34;posts&#34;]
-  favicon = &#34;favicon.ico&#34;
-
-[taxonomies]
-category = &#34;categories&#34;
-tag      = &#34;tags&#34;
-</code></pre><h2 id="creating-initial-post">Creating Initial Post</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/enochyu-official/EnochBlogTheme themes/EnochBlogTheme
+</span></span><span style="display:flex;"><span>git submodule update --init --recursive
+</span></span></code></pre></div><p>To integrate the theme, please update your <code>hugo.toml</code>. It should include the following.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#39;en-US&#39;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;NAME OF YOUR BLOG&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#39;EnochBlogTheme&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">author</span> = <span style="color:#e6db74">&#34;YOUR NAME&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">avatar</span> = <span style="color:#e6db74">&#34;/images/avatar.png&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">mainSections</span> = [<span style="color:#e6db74">&#34;posts&#34;</span>]
+</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">favicon</span> = <span style="color:#e6db74">&#34;favicon.ico&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">taxonomies</span>]
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">category</span> = <span style="color:#e6db74">&#34;categories&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#a6e22e">tag</span>      = <span style="color:#e6db74">&#34;tags&#34;</span>
+</span></span></code></pre></div><h2 id="creating-initial-post">Creating Initial Post</h2>
 <p>To write a post, create a Markdown file <code>YOUR-POST.md</code> in <code>BLOG-NAME/content/post</code>. For users on Unix-based operating system, <code>touch YOUR-POST.md</code> creates the empty file.</p>
-<p>In your Markdown file, it sould include the following.</p>
-<pre tabindex="0"><code>---
-author: YOUR NAME
-title: YOUR TITLE
-date: DATE
-categories: [&#34;YOUR CATEGORY&#34;]
----
-
-YOUR CONTENTS
-</code></pre><p>After writing your initial post, the following commands must be ran to update the GitHub repository.</p>
-<pre tabindex="0"><code>git add .
-git commit -m &#34;YOUR-CHANGE&#34;
-git push
-</code></pre><p>Next, in GitHub repository, please check &ldquo;Actions&rdquo; for the published blog.</p>
+<p>In your Markdown file, it should include the following.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>author: YOUR NAME
+</span></span><span style="display:flex;"><span>title: YOUR TITLE
+</span></span><span style="display:flex;"><span>date: DATE
+</span></span><span style="display:flex;"><span>categories: [&#34;YOUR CATEGORY&#34;]
+</span></span><span style="display:flex;"><span>---
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>YOUR CONTENTS
+</span></span></code></pre></div><p>After writing your initial post, the following commands must be ran to update the GitHub repository.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;YOUR-CHANGE&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><p>Next, in GitHub repository, please check &ldquo;Actions&rdquo; for the published blog.</p>
 <p>Your blog is successfully published!!</p>
 <div class="comments-note">
   💬 <strong>Comments</strong><br>

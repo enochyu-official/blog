@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/blog/categories/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/categories/computer-science/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/post7/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/js-mini-project/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/posts/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/blog/tags/</loc>
+    <lastmod>2026-01-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/overthewire-bandit/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
@@ -17,16 +29,7 @@
     <loc>http://localhost:1313/blog/posts/post6/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/posts/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
-    <lastmod>2026-01-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/blog/posts/post5/</loc>
-    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/blog/tags/js-mini-project/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/tags/ctf/</loc>

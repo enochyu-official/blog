@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
 
-<link rel="stylesheet" href="/blog/css/bundle.min.d18232fb14750c5d8949e9f132a6b8b62316719d385c8916cd84fb612136f77b.css" integrity="sha256-0YIy&#43;xR1DF2JSenxMqa4tiMWcZ04XIkWzYT7YSE293s=">
+<link rel="stylesheet" href="/blog/css/bundle.min.e57226e44e1e61cbf51ce0bc61a26a4abc0b149d36ffeaeafd0b242a8d33cdaf.css" integrity="sha256-5XIm5E4eYcv1HOC8YaJqSrwLFJ02/&#43;rq/QskKo0zza8=">
 
 <script type="application/ld+json">
 {
@@ -121,10 +121,10 @@
 <h3 id="my-solution">My Solution</h3>
 <p>SSH, which stand for Secure Shell, is a cryptographic network protocol that ensures secure connections between remote devices over unsecure network.</p>
 <p>By reading through <code>man ssh</code>, I was able to know that <code>-p</code> is a flag that will allow me to connect on a port. Therefore, I ran the following command.</p>
-<pre tabindex="0"><code>ssh bandit.labs.overthewire.org -p 2220
-</code></pre><p>However, I realized that I need to utilize the username <em>bandit0</em>. Therefore, I tried the following command.</p>
-<pre tabindex="0"><code>ssh bandit0@bandit.labs.overthewire.org -p 2220
-</code></pre><p>After typing in the password, I was able to join the game.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh bandit.labs.overthewire.org -p <span style="color:#ae81ff">2220</span>
+</span></span></code></pre></div><p>However, I realized that I need to utilize the username <em>bandit0</em>. Therefore, I tried the following command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ssh bandit0@bandit.labs.overthewire.org -p <span style="color:#ae81ff">2220</span>
+</span></span></code></pre></div><p>After typing in the password, I was able to join the game.</p>
 <h3 id="takeaways">Takeaways</h3>
 <p>SSH is a protocol that allows encrypted connections between remote devices. With flag <code>-p</code>, connection on a desired port is possible.</p>
 <h2 id="level-1">Level 1</h2>
@@ -135,8 +135,8 @@
 </blockquote>
 <h3 id="my-solution-1">My Solution</h3>
 <p>As a NeoVim user, I realized that <code>ls -a</code> will help me find the password. After locating the file, I ran</p>
-<pre tabindex="0"><code>cat readme
-</code></pre><p>to display the content of the file in terminal. As you probably have guessed, <code>nano readme</code> works too!</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat readme
+</span></span></code></pre></div><p>to display the content of the file in terminal. As you probably have guessed, <code>nano readme</code> works too!</p>
 <p>With the password, I was able to login to the next level.</p>
 <h3 id="takeaways-1">Takeaways</h3>
 <p><code>ls</code> is a command to list the files in the directory. Moreover, <code>cat file</code> will display the content of the file named &ldquo;file&rdquo; in terminal.</p>
@@ -148,8 +148,8 @@
 </blockquote>
 <h3 id="my-solution-2">My Solution</h3>
 <p>Similar to Level 1, I used <code>ls</code> to display the visible files. However, <code>cat -</code> did not work this time as it started with a dash. Therefore, I explicitly identified the file with the following command.</p>
-<pre tabindex="0"><code>cat ./-
-</code></pre><p>With the password, I was able to move on to the next level.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ./-
+</span></span></code></pre></div><p>With the password, I was able to move on to the next level.</p>
 <h3 id="takeaways-2">Takeaways</h3>
 <p>A file with a name that starts with a dash needs different approach when reading with <code>cat</code> as <code>-</code> will consider the file name as a flag. When using commands to open or read a file that starts with a dash, we must explicitly identify the file to prevent it being recognized as an option.</p>
 <h2 id="level-3">Level 3</h2>
@@ -160,9 +160,9 @@
 </blockquote>
 <h3 id="my-solution-3">My Solution</h3>
 <p>In command line, either quotations or backslash <code>\</code> is required to use space in name of a file. Therefore, both</p>
-<pre tabindex="0"><code>cat ./&#34;-- spaces in this filename --&#34;
-cat ./--\ spaces\ in\ this\ filename--
-</code></pre><p>gives the password.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ./<span style="color:#e6db74">&#34;-- spaces in this filename --&#34;</span>
+</span></span><span style="display:flex;"><span>cat ./--<span style="color:#ae81ff">\ </span>spaces<span style="color:#ae81ff">\ </span>in<span style="color:#ae81ff">\ </span>this<span style="color:#ae81ff">\ </span>filename--
+</span></span></code></pre></div><p>gives the password.</p>
 <h3 id="takeaways-3">Takeaways</h3>
 <p>When opening or reading a file that starts with a dash, <code>cat &quot;-&quot;</code> is not valid as the dash is still considered as a standard input. Moreover, a backslash or quotations are required to properly read a file with spaces in the name.</p>
 <h2 id="level-4">Level 4</h2>
@@ -173,11 +173,11 @@ cat ./--\ spaces\ in\ this\ filename--
 </blockquote>
 <h3 id="my-solution-4">My Solution</h3>
 <p>To list the hidden files with the name that start with a period, I decided to utilize <code>ls</code> with flag <code>-a</code>. After running <code>ls -a</code>, I was able to find a folder named &ldquo;inhere&rdquo;. To check the contents inside the file,</p>
-<pre tabindex="0"><code>ls -a inhere
-</code></pre><p>was executed, which listed a file named &ldquo;&hellip;Hiding-From-You&rdquo;. To access the contents inside the file, I ran the following commend in order.</p>
-<pre tabindex="0"><code>cd inhere
-cat ...Hiding-From-You
-</code></pre><p>With the password, I was able to move on to the next level.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls -a inhere
+</span></span></code></pre></div><p>was executed, which listed a file named &ldquo;&hellip;Hiding-From-You&rdquo;. To access the contents inside the file, I ran the following commend in order.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd inhere
+</span></span><span style="display:flex;"><span>cat ...Hiding-From-You
+</span></span></code></pre></div><p>With the password, I was able to move on to the next level.</p>
 <h3 id="takeaways-4">Takeaways</h3>
 <p><code>ls -a</code> will list all files in the directory. Moreover, a file with a name that starts with a period will be hidden.</p>
 <p>These were my solutions for Bandit Level 0 to 4. Please look forward to my future posts!!</p>
@@ -273,6 +273,11 @@ cat ...Hiding-From-You
         </a>
         
 
+        
+        <a href="http://localhost:1313/blog/posts/post7/" class="nav-button text-end">
+          <div class="nav-label">Next <i class="fas fa-arrow-right"></i></div>
+          <div class="nav-title">JavaScript Mini-Project 2: Stopwatch</div>
+        </a>
         
       </div>
     </nav>
