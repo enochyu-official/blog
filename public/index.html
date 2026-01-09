@@ -138,6 +138,8 @@
 
   
 
+  
+
 
 <div class="stats-section">
   <div class="row g-3">
@@ -149,7 +151,7 @@
           
           <div class="d-flex justify-content-between align-items-center mb-1">
             <a href="http://localhost:1313/blog/categories/computer-science/" class="stat-badge">Computer Science</a>
-            <span class="stat-badge">4</span>
+            <span class="stat-badge">5</span>
           </div>
           
           <div class="d-flex justify-content-between align-items-center mb-1">
@@ -177,12 +179,12 @@
           </div>
            
           <div class="d-flex justify-content-between align-items-center mb-1">
-            <a href="http://localhost:1313/blog/tags/ctf/" class="stat-badge">CTF</a>
-            <span class="stat-badge">1</span>
+            <a href="http://localhost:1313/blog/tags/overthewire-bandit/" class="stat-badge">OverTheWire Bandit</a>
+            <span class="stat-badge">2</span>
           </div>
            
           <div class="d-flex justify-content-between align-items-center mb-1">
-            <a href="http://localhost:1313/blog/tags/overthewire-bandit/" class="stat-badge">OverTheWire Bandit</a>
+            <a href="http://localhost:1313/blog/tags/ctf/" class="stat-badge">CTF</a>
             <span class="stat-badge">1</span>
           </div>
            
@@ -196,13 +198,13 @@
         <div class="p-2"> 
           <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
             <div class="stat-label">Words</div>
-            <div class="stat-number">4829</div>
+            <div class="stat-number">4956</div>
           </div>
 
           <div class="d-flex justify-content-between align-items-center p-2 border-bottom">
             <div class="stat-label">Posts</div>
             <div class="stat-number">
-              7
+              8
             </div>
           </div>
 
@@ -222,6 +224,55 @@
   <div class="articles-section">
     <h2 class="section-title">Latest Posts</h2>
     <div class="row">
+      
+      <div class="col-12">
+  <div class="article-card glass">
+
+    <div class="article-meta">
+      <i class="far fa-calendar"></i> January 8, 2026
+      <span class="mx-2">|</span>
+      <i class="far fa-clock"></i> 1 min read
+      <span class="mx-2">|</span>
+      <i class="far fa-file-text"></i> 127 words 
+
+       
+      <span class="mx-2">|</span>
+      <i class="fas fa-folder"></i> 
+      
+        <a href="/blog/categories/computer-science/">Computer Science</a>
+      
+      
+    </div>
+
+    <a href="http://localhost:1313/blog/posts/post8/" class="article-title d-block">OverTheWire Bandit: Level 5-9</a>
+      <p class="article-excerpt">
+        
+          <p>Below are my solutions to Bandit level 5 to 9 continuing from <a href="https://enochyu-official.github.io/blog/posts/post6/">Level 0-4</a>. Let&rsquo;s get started~!!</p>
+<h2 id="level-5">Level 5</h2>
+<h3 id="task">Task</h3>
+<p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit5.html">Level 5</a>.</p>
+<pre><code>Find the password that is stored in the only file in the &quot;inhere&quot; directory that is human-readable.
+</code></pre>
+<h3 id="my-solution">My Solution</h3>
+<p>First, I ran the following commands to list all the files in the &ldquo;inhere&rdquo; directory.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls
+</span></span><span style="display:flex;"><span>cd inhere
+</span></span><span style="display:flex;"><span>ls -a
+</span></span></code></pre></div><p>In the &ldquo;inhere&rdquo; directory, there were ten files named &ldquo;-file00&rdquo; to &ldquo;-file09&rdquo;. To find the human-readable file, the type of each file must be known.</p>
+        
+      </p>
+
+      
+      <div class="article-tags">
+        
+        <a href="/blog/tags/overthewire-bandit/" class="tag">OverTheWire Bandit</a>
+        
+      </div>
+      
+  </div>
+</div>
+
+
       
       <div class="col-12">
   <div class="article-card glass">
@@ -441,40 +492,6 @@
           <p>When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses <em>wordpress.com</em>. However, I noticed that <em>wordpress.com</em> would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, <em>why don&rsquo;t I build one myself?</em></p>
 <h2 id="static-site-generator-ssg">Static Site Generator (SSG)</h2>
 <p>I had two options of hosting via CMS (Content Management System) or hosting through SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones created with CMS since no server-side processing is required when accessing.</p>
-        
-      </p>
-
-      
-  </div>
-</div>
-
-
-      
-      <div class="col-12">
-  <div class="article-card glass">
-
-    <div class="article-meta">
-      <i class="far fa-calendar"></i> December 12, 2025
-      <span class="mx-2">|</span>
-      <i class="far fa-clock"></i> 4 min read
-      <span class="mx-2">|</span>
-      <i class="far fa-file-text"></i> 730 words 
-
-       
-      <span class="mx-2">|</span>
-      <i class="fas fa-folder"></i> 
-      
-        <a href="/blog/categories/student-life/">Student Life</a>
-      
-      
-    </div>
-
-    <a href="http://localhost:1313/blog/posts/post1/" class="article-title d-block">[README] From the Beginning: My First Post</a>
-      <p class="article-excerpt">
-        
-          <p>Hello!! Welcome to my personal blog where I post about various topics! I am a student from South Korea, and is currently attending Laurel Springs School. Please check out my <a href="https://www.youtube.com/@enochyu_official/">YouTube Channel</a> and <a href="https://github.com/enochyu-official">GitHub</a> for more information!!</p>
-<h2 id="why-i-started-to-blog">Why I Started to Blog</h2>
-<p>Frankly, I wasn&rsquo;t always confident in writing. Although I am comfortable with using English, the thought that I do not sound like a <strong>native speaker</strong>, when using casual term, kicks in. <em>Is my grammar wrong? Is my word choice not ideal? Am I using the word in a wrong way?</em></p>
         
       </p>
 

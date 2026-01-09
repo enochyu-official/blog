@@ -6,8 +6,15 @@
     <description>Recent content in Computer Science on Enoch Yu (유에녹)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OverTheWire Bandit: Level 5-9</title>
+      <link>http://localhost:1313/blog/posts/post8/</link>
+      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/posts/post8/</guid>
+      <description>&lt;p&gt;Below are my solutions to Bandit level 5 to 9 continuing from &lt;a href=&#34;https://enochyu-official.github.io/blog/posts/post6/&#34;&gt;Level 0-4&lt;/a&gt;. Let&amp;rsquo;s get started~!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;level-5&#34;&gt;Level 5&lt;/h2&gt;&#xA;&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;&#xA;&lt;p&gt;Below is the task for &lt;a href=&#34;https://overthewire.org/wargames/bandit/bandit5.html&#34;&gt;Level 5&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Find the password that is stored in the only file in the &amp;quot;inhere&amp;quot; directory that is human-readable.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;my-solution&#34;&gt;My Solution&lt;/h3&gt;&#xA;&lt;p&gt;First, I ran the following commands to list all the files in the &amp;ldquo;inhere&amp;rdquo; directory.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ls&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd inhere&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ls -a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the &amp;ldquo;inhere&amp;rdquo; directory, there were ten files named &amp;ldquo;-file00&amp;rdquo; to &amp;ldquo;-file09&amp;rdquo;. To find the human-readable file, the type of each file must be known.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>JavaScript Mini-Project 2: Stopwatch</title>
       <link>http://localhost:1313/blog/posts/post7/</link>

@@ -12,7 +12,7 @@ One of the most recommended way to learn Linux commands and basics in CTF is com
 ### Task
 Below is the task for [Level 0](https://overthewire.org/wargames/bandit/bandit0.html).
 
-> Log into the game using SSH with the host to bandit.labs.overthewire.org on port 2220. The given username and the password is bandit0 and bandit0 respectively.
+    Log into the game using SSH with the host to bandit.labs.overthewire.org on port 2220. The given username and the password is bandit0 and bandit0 respectively.
 
 ### My Solution
 SSH, which stand for Secure Shell, is a cryptographic network protocol that ensures secure connections between remote devices over unsecure network.
@@ -35,7 +35,7 @@ SSH is a protocol that allows encrypted connections between remote devices. With
 ### Task
 Below is the task for [Level 1](https://overthewire.org/wargames/bandit/bandit1.html).
 
-> Find the password that is stored in a file named "readme" in the home directory.
+    Find the password that is stored in a file named "readme" in the home directory.
 
 ### My Solution
 As a NeoVim user, I realized that `ls -a` will help me find the password. After locating the file, I ran
@@ -54,7 +54,7 @@ With the password, I was able to login to the next level.
 ### Task
 Below is the task for [Level 2](https://overthewire.org/wargames/bandit/bandit2.html).
 
-> Find the password that is stored in a file named "-" in the home directory.
+    Find the password that is stored in a file named "-" in the home directory.
 
 ### My Solution
 Similar to Level 1, I used `ls` to display the visible files. However, `cat -` did not work this time as it started with a dash. Therefore, I explicitly identified the file with the following command.
@@ -71,7 +71,7 @@ A file with a name that starts with a dash needs different approach when reading
 ### Task
 Below is the task for [Level 3](https://overthewire.org/wargames/bandit/bandit3.html).
 
-> Find the password that is stored in a file name "-- spaces in this filename --" in the home directory.
+    Find the password that is stored in a file name "-- spaces in this filename --" in the home directory.
 
 ### My Solution
 In command line, either quotations or backslash `\` is required to use space in name of a file. Therefore, both
@@ -89,7 +89,7 @@ When opening or reading a file that starts with a dash, `cat "-"` is not valid a
 ### Task
 Below is the task for [Level 4](https://overthewire.org/wargames/bandit/bandit4.html).
 
-> Find the password that is stored in a hidden file in the "inhere" directory.
+    Find the password that is stored in a hidden file in the "inhere" directory.
 
 ### My Solution
 To list the hidden files with the name that start with a period, I decided to utilize `ls` with flag `-a`. After running `ls -a`, I was able to find a folder named "inhere". To check the contents inside the file,

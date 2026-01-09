@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="Enoch Yu">
-<title>Categories | Enoch Yu (유에녹)</title>
+<title>OverTheWire Bandit: Level 5-9 | Enoch Yu (유에녹)</title>
 
 <link rel="icon" href="favicon.ico">
 <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -91,94 +91,102 @@
   <main>
     
 <div class="container">
-  <div class="page-header glass p-4 mb-4">
-    <h1>Categories</h1>
+  <div class="post-container">
+    <article class="post-content glass">
+      <h1 class="post-title">OverTheWire Bandit: Level 5-9</h1>
+      <div class="post-meta">
+        <i class="far fa-calendar"></i> January 8, 2026
+        <span class="mx-2">|</span>
+        <i class="far fa-clock"></i> 1 min read
+        <span class="mx-2">|</span>
+        <i class="far fa-file-text"></i> 127 words
+
+         
+        <span class="mx-2">|</span>
+        <i class="fas fa-folder"></i> 
+        
+        <a href="/blog/categories/computer-science/">Computer Science</a>
+        
+        
+      </div>
+
+      <div class="post-body">
+        <p>Below are my solutions to Bandit level 5 to 9 continuing from <a href="https://enochyu-official.github.io/blog/posts/post6/">Level 0-4</a>. Let&rsquo;s get started~!!</p>
+<h2 id="level-5">Level 5</h2>
+<h3 id="task">Task</h3>
+<p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit5.html">Level 5</a>.</p>
+<pre><code>Find the password that is stored in the only file in the &quot;inhere&quot; directory that is human-readable.
+</code></pre>
+<h3 id="my-solution">My Solution</h3>
+<p>First, I ran the following commands to list all the files in the &ldquo;inhere&rdquo; directory.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls
+</span></span><span style="display:flex;"><span>cd inhere
+</span></span><span style="display:flex;"><span>ls -a
+</span></span></code></pre></div><p>In the &ldquo;inhere&rdquo; directory, there were ten files named &ldquo;-file00&rdquo; to &ldquo;-file09&rdquo;. To find the human-readable file, the type of each file must be known.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>file ./-file00 ./-file01 ./-file02 ./-file03 ./-file04 ./-file05 ./-file06 ./-file07 ./-file08 ./-file09
+</span></span></code></pre></div><p>The command above allowed me to identify the ASCII text file. With the password, I was able to move on to the next level.</p>
+<h3 id="takeaways">Takeaways</h3>
+
+      </div>
       
+      <div class="post-tags mt-4">
+        <strong>Tags:</strong>
+        
+        <a href="/blog/tags/overthewire-bandit/" class="tag">OverTheWire Bandit</a>
+        
+      </div>
+      
+    </article>
+        
+<aside class="toc-sidebar">
+  <div class="toc glass">
+    <div class="toc-title">Table of Contents</div>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#level-5">Level 5</a>
+      <ul>
+        <li><a href="#task">Task</a></li>
+        <li><a href="#my-solution">My Solution</a></li>
+        <li><a href="#takeaways">Takeaways</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
   </div>
-    
-  <div class="articles-section">
-    <div class="row">
-      
-      <div class="col-12">
-  <div class="article-card glass">
+</aside>
 
-    <div class="article-meta">
-      <i class="far fa-calendar"></i> January 8, 2026
-      <span class="mx-2">|</span>
-      <i class="far fa-clock"></i> 0 min read
-      <span class="mx-2">|</span>
-      <i class="far fa-file-text"></i> 0 words 
 
-      
     </div>
 
-    <a href="http://localhost:1313/blog/categories/computer-science/" class="article-title d-block">Computer Science</a>
-      <p class="article-excerpt">
+    <section class="giscus"></section>
+    <script src="https://giscus.app/client.js"
+        data-repo="enochyu-official/blog"
+        data-repo-id="R_kgDOQmE9xg"
+        data-category="General"
+        data-category-id="DIC_kwDOQmE9xs4Czr9C"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="0"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <nav class="post-navigation glass">
+      <div class="nav-buttons">
         
-          
+        <a href="http://localhost:1313/blog/posts/post7/" class="nav-button">
+          <div class="nav-label"><i class="fas fa-arrow-left"></i> Previous</div>
+          <div class="nav-title">JavaScript Mini-Project 2: Stopwatch</div>
+        </a>
         
-      </p>
 
-      
-  </div>
-</div>
-
-
-      
-      <div class="col-12">
-  <div class="article-card glass">
-
-    <div class="article-meta">
-      <i class="far fa-calendar"></i> December 15, 2025
-      <span class="mx-2">|</span>
-      <i class="far fa-clock"></i> 0 min read
-      <span class="mx-2">|</span>
-      <i class="far fa-file-text"></i> 0 words 
-
-      
-    </div>
-
-    <a href="http://localhost:1313/blog/categories/student-life/" class="article-title d-block">Student Life</a>
-      <p class="article-excerpt">
         
-          
-        
-      </p>
-
-      
-  </div>
-</div>
-
-
-      
-      <div class="col-12">
-  <div class="article-card glass">
-
-    <div class="article-meta">
-      <i class="far fa-calendar"></i> December 14, 2025
-      <span class="mx-2">|</span>
-      <i class="far fa-clock"></i> 0 min read
-      <span class="mx-2">|</span>
-      <i class="far fa-file-text"></i> 0 words 
-
-      
-    </div>
-
-    <a href="http://localhost:1313/blog/categories/miscellaneous/" class="article-title d-block">Miscellaneous</a>
-      <p class="article-excerpt">
-        
-          
-        
-      </p>
-
-      
-  </div>
-</div>
-
-
-      
-    </div>
-  </div>
+      </div>
+    </nav>
 </div>
 
   </main>

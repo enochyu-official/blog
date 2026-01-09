@@ -115,9 +115,8 @@
 <h2 id="level-0">Level 0</h2>
 <h3 id="task">Task</h3>
 <p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit0.html">Level 0</a>.</p>
-<blockquote>
-<p>Log into the game using SSH with the host to bandit.labs.overthewire.org on port 2220. The given username and the password is bandit0 and bandit0 respectively.</p>
-</blockquote>
+<pre><code>Log into the game using SSH with the host to bandit.labs.overthewire.org on port 2220. The given username and the password is bandit0 and bandit0 respectively.
+</code></pre>
 <h3 id="my-solution">My Solution</h3>
 <p>SSH, which stand for Secure Shell, is a cryptographic network protocol that ensures secure connections between remote devices over unsecure network.</p>
 <p>By reading through <code>man ssh</code>, I was able to know that <code>-p</code> is a flag that will allow me to connect on a port. Therefore, I ran the following command.</p>
@@ -130,9 +129,8 @@
 <h2 id="level-1">Level 1</h2>
 <h3 id="task-1">Task</h3>
 <p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit1.html">Level 1</a>.</p>
-<blockquote>
-<p>Find the password that is stored in a file named &ldquo;readme&rdquo; in the home directory.</p>
-</blockquote>
+<pre><code>Find the password that is stored in a file named &quot;readme&quot; in the home directory.
+</code></pre>
 <h3 id="my-solution-1">My Solution</h3>
 <p>As a NeoVim user, I realized that <code>ls -a</code> will help me find the password. After locating the file, I ran</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat readme
@@ -143,9 +141,8 @@
 <h2 id="level-2">Level 2</h2>
 <h3 id="task-2">Task</h3>
 <p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit2.html">Level 2</a>.</p>
-<blockquote>
-<p>Find the password that is stored in a file named &ldquo;-&rdquo; in the home directory.</p>
-</blockquote>
+<pre><code>Find the password that is stored in a file named &quot;-&quot; in the home directory.
+</code></pre>
 <h3 id="my-solution-2">My Solution</h3>
 <p>Similar to Level 1, I used <code>ls</code> to display the visible files. However, <code>cat -</code> did not work this time as it started with a dash. Therefore, I explicitly identified the file with the following command.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ./-
@@ -155,9 +152,8 @@
 <h2 id="level-3">Level 3</h2>
 <h3 id="task-3">Task</h3>
 <p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit3.html">Level 3</a>.</p>
-<blockquote>
-<p>Find the password that is stored in a file name &ldquo;&ndash; spaces in this filename &ndash;&rdquo; in the home directory.</p>
-</blockquote>
+<pre><code>Find the password that is stored in a file name &quot;-- spaces in this filename --&quot; in the home directory.
+</code></pre>
 <h3 id="my-solution-3">My Solution</h3>
 <p>In command line, either quotations or backslash <code>\</code> is required to use space in name of a file. Therefore, both</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cat ./<span style="color:#e6db74">&#34;-- spaces in this filename --&#34;</span>
@@ -168,9 +164,8 @@
 <h2 id="level-4">Level 4</h2>
 <h3 id="task-4">Task</h3>
 <p>Below is the task for <a href="https://overthewire.org/wargames/bandit/bandit4.html">Level 4</a>.</p>
-<blockquote>
-<p>Find the password that is stored in a hidden file in the &ldquo;inhere&rdquo; directory.</p>
-</blockquote>
+<pre><code>Find the password that is stored in a hidden file in the &quot;inhere&quot; directory.
+</code></pre>
 <h3 id="my-solution-4">My Solution</h3>
 <p>To list the hidden files with the name that start with a period, I decided to utilize <code>ls</code> with flag <code>-a</code>. After running <code>ls -a</code>, I was able to find a folder named &ldquo;inhere&rdquo;. To check the contents inside the file,</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ls -a inhere

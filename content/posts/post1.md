@@ -12,7 +12,7 @@ Frankly, I wasn't always confident in writing. Although I am comfortable with us
 
 With all concerns, two reason allowed me to write this first post. The first reason is to overcome challenges that I face when using English. I remember a Christian missionary emphasizing the following quote in a retreat.
 
-> If you do nothing, nothing will happen. So challenge yourself!
+    If you do nothing, nothing will happen. So challenge yourself!
 
 The message from the missionary hit me hard, and allowed me to reflect myself again. I noticed Enoch who is afraid to use *casual* English because he may not sound like a native speaker. Writing academic texts are no problem. Therefore, I decided to write my blog in casual way to try and overcome the challenge.
 
