@@ -57,8 +57,16 @@ Without manually inspecting each file, it is possible to find multiple propertie
 ### Task
 Below is the task for [Level 7](https://overthewire.org/wargames/bandit/bandit7.html).
 
+    Find the password that is stored in the server, owned by user bandit7, owned by group bandit6, and 33 bytes in size.
 
 ### My Solution
+After running `ls -a` in the directory, `.`, `..`, `.bash_logout`, `.bashrc`, and `.profile` were listed. Therefore, `du -b .*` was used to list the following information.
+```bash
+220      .bash_logout
+3851     .bashrc
+807      .profile
+```
+None of the files were 33 bytes in size. In other words no comments in the files are likely to contain the password. In order to utilize the word "server", I travelled to the higher directory with `cd ..`.
 
 
 ### Takeaways
