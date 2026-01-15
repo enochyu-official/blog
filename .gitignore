@@ -2,8 +2,6 @@
 *.swo
 *~
 
-.DS_Store
-
 *.db
 *.sqlite3
 *.sqlite
@@ -14,7 +12,8 @@ logs/
 .coverage
 htmlcov/
 
-google7dae713ba1dc289d.html
+node_modules
+.hugo_build.lock
 .DS_Store
 
 /resources/_gen
