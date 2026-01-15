@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'enochyu-blog.pages.dev'
 languageCode = 'en-US'
 title = "Enoch Yu (유에녹)"
 theme = 'EnochBlogTheme'
