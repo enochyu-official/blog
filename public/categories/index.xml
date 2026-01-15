@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Enoch Yu (유에녹)</title>
-    <link>http://localhost:1313/blog/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Enoch Yu (유에녹)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Computer Science</title>
-      <link>http://localhost:1313/blog/categories/computer-science/</link>
+      <link>http://localhost:1313/categories/computer-science/</link>
       <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/computer-science/</guid>
+      <guid>http://localhost:1313/categories/computer-science/</guid>
       <description></description>
     </item>
     <item>
       <title>Student Life</title>
-      <link>http://localhost:1313/blog/categories/student-life/</link>
+      <link>http://localhost:1313/categories/student-life/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/student-life/</guid>
+      <guid>http://localhost:1313/categories/student-life/</guid>
       <description></description>
     </item>
     <item>
       <title>Miscellaneous</title>
-      <link>http://localhost:1313/blog/categories/miscellaneous/</link>
+      <link>http://localhost:1313/categories/miscellaneous/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/categories/miscellaneous/</guid>
+      <guid>http://localhost:1313/categories/miscellaneous/</guid>
       <description></description>
     </item>
   </channel>

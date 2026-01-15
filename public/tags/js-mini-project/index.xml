@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>JS Mini-Project on Enoch Yu (유에녹)</title>
-    <link>http://localhost:1313/blog/tags/js-mini-project/</link>
+    <link>http://localhost:1313/tags/js-mini-project/</link>
     <description>Recent content in JS Mini-Project on Enoch Yu (유에녹)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/tags/js-mini-project/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/js-mini-project/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript Mini-Project 2: Stopwatch</title>
-      <link>http://localhost:1313/blog/posts/post7/</link>
+      <link>http://localhost:1313/posts/post7/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/post7/</guid>
+      <guid>http://localhost:1313/posts/post7/</guid>
       <description>&lt;p&gt;As for my second project, I decided to make a stopwatch. After reading and watching numerous tutorials, I was able to understand the general logic of JavaScript stopwatch. The &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project2_TimerStopwatch/&#34;&gt;stopwatch&lt;/a&gt; and &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project2_TimerStopwatch&#34;&gt;source code&lt;/a&gt; are available. Please enjoy, and provide any feedback!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-2&#34;&gt;Introducing Project 2&lt;/h2&gt;&#xA;&lt;p&gt;The stopwatch that I created behaves like any other stopwatch. It can start, pause, resume, and reset the counter accurately. Surprisingly, the general logical structure was much more easier to come up with than my &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;first project&lt;/a&gt;. The method to calculate the elapsed time is finding the difference between current time and the time when the stopwatch started. The function &lt;code&gt;Date.now()&lt;/code&gt; will call the current time from the local machine up to milliseconds! Below is a more detailed explanation with source code.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript Mini-Project 1: Coffee Shop</title>
-      <link>http://localhost:1313/blog/posts/post5/</link>
+      <link>http://localhost:1313/posts/post5/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/posts/post5/</guid>
+      <guid>http://localhost:1313/posts/post5/</guid>
       <description>&lt;p&gt;For my first JavaScript mini-project, I decided to create a Coffee Shop simply because I love coffee and coffee shops. For your reference, here is the &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;Coffee Shop&lt;/a&gt; and the &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop&#34;&gt;source code&lt;/a&gt; of the project. Please feel free to leave any feedback in the comment section below for improvements!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-1&#34;&gt;Introducing Project 1&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I wanted each phase to be separated with new sections and slides. With each input, the robot receiving the order will retain the information and utilize it in next phase. To practice using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag in html, I decided to change the background color and robot&amp;rsquo;s expression in new slides. Notice that when the customer entered a value that is not in the menu, the robot&amp;rsquo;s expression will change. Moreover, in the last phase, the brew time is equal to two times the number of coffee ordered.&lt;/p&gt;</description>
     </item>
   </channel>
