@@ -1,3 +1,9 @@
 [submodule "themes/EnochBlogTheme"]
 	path = themes/EnochBlogTheme
 	url = https://github.com/enochyu-official/EnochBlogTheme/
+[submodule "themes/EnochBlogThem"]
+	path = themes/EnochBlogThem
+	url = https://github.com/enochyu-official/EnochBlogTheme/
+[submodule "themes"]
+	path = themes
+	url = https://github.com/enochyu-official/themes
