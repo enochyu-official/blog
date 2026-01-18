@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Enoch Yu (유에녹)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
-    <lastBuildDate>Thu, 08 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Mini-Project 3: Guess the Number</title>
+      <link>http://localhost:1313/posts/post09/</link>
+      <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/post09/</guid>
+      <description>&lt;p&gt;For my third project, I decided to create a fun guess the number game. &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project3_GuessTheNumber/&#34;&gt;Guess the Number&lt;/a&gt; and its &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project3_GuessTheNumber&#34;&gt;source codes&lt;/a&gt; are available. Please note that because I did not utilize internet for my script, the solution may not be the optimal version. Let&amp;rsquo;s get started!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-3&#34;&gt;Introducing Project 3&lt;/h2&gt;&#xA;&lt;p&gt;The product is rather simple. The client is given five chances to guess the random number between 1 and 100 inclusive. If the user guessed the number correctly, they are given the message &amp;ldquo;YOU WIN&amp;rdquo;. However, if the client was not able to guess the number within five tries, the random number appears with the message &amp;ldquo;YOU LOSE&amp;rdquo;. The script to activate the game was comparably simple. Below is a more detailed explanation on each components.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>OverTheWire Bandit: Level 5-9</title>
       <link>http://localhost:1313/posts/post08/</link>
@@ -63,13 +70,6 @@
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/post01/</guid>
       <description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics! I am a student from South Korea, and is currently attending Laurel Springs School. Please check out my &lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and &lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;, when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript Mini-Project 3: Guess the Number</title>
-      <link>http://localhost:1313/posts/post09/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post09/</guid>
-      <description>&lt;p&gt;For my third project, I decided to create a fun guess the number game. &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project3_GuessTheNumber/&#34;&gt;Guess the Number&lt;/a&gt; and its &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project3_GuessTheNumber&#34;&gt;source codes&lt;/a&gt; are available. Please note that because I did not utilize internet for my script, the solution may not be the optimal version. Let&amp;rsquo;s get started!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-3&#34;&gt;Introducing Project 3&lt;/h2&gt;&#xA;&lt;p&gt;The product is rather simple. The client is given five chances to guess the random number between 1 and 100 inclusive. If the user guessed the number correctly, they are given the message &amp;ldquo;YOU WIN&amp;rdquo;. However, if the client was not able to guess the number within five tries, the random number appears with the message &amp;ldquo;YOU LOSE&amp;rdquo;. The script to activate the game was comparably simple. Below is a more detailed explanation on each components.&lt;/p&gt;</description>
     </item>
     <item>
       <title>JavaScript Mini-Project 4: Calculator</title>
