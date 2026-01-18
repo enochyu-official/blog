@@ -6,7 +6,7 @@ categories: ["Computer Science"]
 tags: ["CTF"]
 ---
 
-If you have read the [first post](https://enochyu-official.github.io/blog/post/post1/#computer-science), you probably know that I recently started studying for Capture the Flag (CTF) events. As I dive deeper into this new challenge, I decided to record my journey because why not? Through this blog, I hope to bring positive influence to all who are starting CTF challenges. Moreover, because I am not a professional in this field, any feedback are welcomed. Then, let's get started!!
+If you have read the [first post](https://enochyu-blog.pages.dev/posts/post01/), you probably know that I recently started studying for Capture the Flag (CTF) events. As I dive deeper into this new challenge, I decided to record my journey because why not? Through this blog, I hope to bring positive influence to all who are starting CTF challenges. Moreover, because I am not a professional in this field, any feedback are welcomed. Then, let's get started!!
 
 ## What is CTF?
 First and foremost, what is CTF? Capture the Flag in terms of cybersecurity is an activity that assists in acquiring knowledge in cybersecurity for the participants. The objective is to find flags hidden somewhere in the provided prompt either individually or by teams, while participating as a team is more common. The three main types of CTF are Jeopardy-style CTF, Attack-Defence CTF and Mixed.

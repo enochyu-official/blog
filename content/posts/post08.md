@@ -6,7 +6,7 @@ categories: ["Computer Science"]
 tags: ["OverTheWire Bandit"]
 ---
 
-Below are my solutions to Bandit level 5 to 9 continuing from [Level 0-4](https://enochyu-official.github.io/blog/posts/post6/). Let's get started~!!
+Below are my solutions to Bandit level 5 to 9 continuing from [Level 0-4](https://enochyu-blog.pages.dev/posts/post06/). Let's get started~!!
 
 ## Level 5
 ### Task

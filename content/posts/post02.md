@@ -83,7 +83,7 @@ git add .
 git commit -m "YOUR-CHANGE"
 git push
 ```
-Next, in GitHub repository, please check "Actions" for the published blog.
+Next, follow the steps from [Cloudflare Pages](https://pages.cloudflare.com/).
 
 Your blog is successfully published!!
 

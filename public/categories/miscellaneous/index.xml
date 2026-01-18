@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/categories/miscellaneous/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building My Blog With Hugo and GitHub</title>
-      <link>http://localhost:1313/posts/post2/</link>
+      <link>http://localhost:1313/posts/post02/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/post2/</guid>
+      <guid>http://localhost:1313/posts/post02/</guid>
       <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that &lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, &lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)&lt;/h2&gt;&#xA;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or hosting through SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones created with CMS since no server-side processing is required when accessing.&lt;/p&gt;</description>
     </item>
   </channel>
