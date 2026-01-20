@@ -5,7 +5,6 @@ theme = 'EnochBlogTheme'
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
-enableRobotsTXT = true
 
 [params]
   author = "Enoch Yu"

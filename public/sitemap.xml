@@ -2,71 +2,71 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://enochyu-blog.pages.dev/categories/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/computer-science/</loc>
+    <loc>https://enochyu-blog.pages.dev/categories/computer-science/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://enochyu-blog.pages.dev/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post09/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post09/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/js-mini-project/</loc>
+    <loc>https://enochyu-blog.pages.dev/tags/js-mini-project/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://enochyu-blog.pages.dev/tags/</loc>
     <lastmod>2026-01-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/overthewire-bandit/</loc>
+    <loc>https://enochyu-blog.pages.dev/tags/overthewire-bandit/</loc>
     <lastmod>2026-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post08/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post08/</loc>
     <lastmod>2026-01-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post07/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post07/</loc>
     <lastmod>2026-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post06/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post06/</loc>
     <lastmod>2026-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post05/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post05/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ctf/</loc>
+    <loc>https://enochyu-blog.pages.dev/tags/ctf/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post04/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post04/</loc>
     <lastmod>2025-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post03/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post03/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/student-life/</loc>
+    <loc>https://enochyu-blog.pages.dev/categories/student-life/</loc>
     <lastmod>2025-12-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post02/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post02/</loc>
     <lastmod>2025-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/miscellaneous/</loc>
+    <loc>https://enochyu-blog.pages.dev/categories/miscellaneous/</loc>
     <lastmod>2025-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/post01/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post01/</loc>
     <lastmod>2025-12-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://enochyu-blog.pages.dev/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/post10/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post10/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/post11/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post11/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/post12/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post12/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/post13/</loc>
+    <loc>https://enochyu-blog.pages.dev/posts/post13/</loc>
   </url>
 </urlset>
