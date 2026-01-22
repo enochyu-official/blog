@@ -6,7 +6,7 @@ categories: ["Computer Science"]
 tags: ["JS Mini-Project"]
 ---
 
-For my first JavaScript mini-project, I decided to create a Coffee Shop simply because I love coffee and coffee shops. For your reference, here is the [Coffee Shop](https://enochyu-js.pages.dev/projects/project1_CoffeeShop/) and the [source code](https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop) of the project. Please feel free to leave any feedback in the comment section below for improvements!!
+Before getting started with competitive programming, I decided to motivate myself with small JavaScript projects, mainly for growing accustomed to coding and learning logics. As for my first JavaScript mini-project, I decided to create a Coffee Shop simply because I love coffee and coffee shops. For your reference, here is the [Coffee Shop](https://enochyu-js.pages.dev/projects/project1_CoffeeShop/) and the [source code](https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop) of the project. Please feel free to leave any feedback in the comment section below for improvements!!
 
 ## Introducing Project 1
 In this project, I wanted each phase to be separated with new sections and slides. With each input, the robot receiving the order will retain the information and utilize it in next phase. To practice using `<div>` tag in html, I decided to change the background color and robot's expression in new slides. Notice that when the customer entered a value that is not in the menu, the robot's expression will change. Moreover, in the last phase, the brew time is equal to two times the number of coffee ordered.
