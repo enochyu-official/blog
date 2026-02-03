@@ -2,102 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Enoch Yu (유에녹)</title>
-    <link>https://enochyu-blog.pages.dev/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Enoch Yu (유에녹)</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sat, 17 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://enochyu-blog.pages.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript Mini-Project 3: Guess the Number</title>
-      <link>https://enochyu-blog.pages.dev/posts/post09/</link>
+      <link>http://localhost:1313/posts/post06_js3guessthenumber/</link>
       <pubDate>Sat, 17 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post09/</guid>
+      <guid>http://localhost:1313/posts/post06_js3guessthenumber/</guid>
       <description>&lt;p&gt;For my third project, I decided to create a fun guess the number game. &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project3_GuessTheNumber/&#34;&gt;Guess the Number&lt;/a&gt; and its &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project3_GuessTheNumber&#34;&gt;source codes&lt;/a&gt; are available. Please note that because I did not utilize internet for my script, the solution may not be the optimal version. Let&amp;rsquo;s get started!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-3&#34;&gt;Introducing Project 3&lt;/h2&gt;&#xA;&lt;p&gt;The product is rather simple. The client is given five chances to guess the random number between 1 and 100 inclusive. If the user guessed the number correctly, they are given the message &amp;ldquo;YOU WIN&amp;rdquo;. However, if the client was not able to guess the number within five tries, the random number appears with the message &amp;ldquo;YOU LOSE&amp;rdquo;. The script to activate the game was comparably simple. Below is a more detailed explanation on each components.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OverTheWire Bandit: Level 5-9</title>
-      <link>https://enochyu-blog.pages.dev/posts/post08/</link>
-      <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post08/</guid>
-      <description>&lt;p&gt;Below are my solutions to Bandit level 5 to 9 continuing from &lt;a href=&#34;https://enochyu-blog.pages.dev/posts/post06/&#34;&gt;Level 0-4&lt;/a&gt;. Let&amp;rsquo;s get started~!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;level-5&#34;&gt;Level 5&lt;/h2&gt;&#xA;&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;&#xA;&lt;p&gt;Below is the task for &lt;a href=&#34;https://overthewire.org/wargames/bandit/bandit5.html&#34;&gt;Level 5&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;Find the password that is stored in the only file in the &amp;quot;inhere&amp;quot; directory that is human-readable.&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;h3 id=&#34;my-solution&#34;&gt;My Solution&lt;/h3&gt;&#xA;&lt;p&gt;First, I ran the following commands to list all the files in the &amp;ldquo;inhere&amp;rdquo; directory.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ls&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cd inhere&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ls -a&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;In the &amp;ldquo;inhere&amp;rdquo; directory, there were ten files named &amp;ldquo;-file00&amp;rdquo; to &amp;ldquo;-file09&amp;rdquo;. To find the human-readable file, the type of each file must be known.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>JavaScript Mini-Project 2: Stopwatch</title>
-      <link>https://enochyu-blog.pages.dev/posts/post07/</link>
+      <link>http://localhost:1313/posts/post05_js2stopwatch/</link>
       <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post07/</guid>
+      <guid>http://localhost:1313/posts/post05_js2stopwatch/</guid>
       <description>&lt;p&gt;As for my second project, I decided to make a stopwatch. After reading and watching numerous tutorials, I was able to understand the general logic of JavaScript stopwatch. The &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project2_TimerStopwatch/&#34;&gt;stopwatch&lt;/a&gt; and &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project2_TimerStopwatch&#34;&gt;source code&lt;/a&gt; are available. Please enjoy, and provide any feedback!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-2&#34;&gt;Introducing Project 2&lt;/h2&gt;&#xA;&lt;p&gt;The stopwatch that I created behaves like any other stopwatch. It can start, pause, resume, and reset the counter accurately. Surprisingly, the general logical structure was much more easier to come up with than my &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;first project&lt;/a&gt;. The method to calculate the elapsed time is finding the difference between current time and the time when the stopwatch started. The function &lt;code&gt;Date.now()&lt;/code&gt; will call the current time from the local machine up to milliseconds! Below is a more detailed explanation with source code.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>OverTheWire Bandit: Level 0-4</title>
-      <link>https://enochyu-blog.pages.dev/posts/post06/</link>
-      <pubDate>Tue, 06 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post06/</guid>
-      <description>&lt;p&gt;One of the most recommended way to learn Linux commands and basics in CTF is completing &lt;a href=&#34;https://overthewire.org/wargames/bandit/&#34;&gt;Bandit&lt;/a&gt; from &lt;a href=&#34;https://overthewire.org/wargames/&#34;&gt;OverTheWire&lt;/a&gt;. Therefore, I decided to complete this challenge first before any other CTF challenges. Here, I am planning to share task, my approach, and lessons that I learned from each level. Moreover, I sincerely wish to express my gratitude towards the developers of this platform! Then, let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;h2 id=&#34;level-0&#34;&gt;Level 0&lt;/h2&gt;&#xA;&lt;h3 id=&#34;task&#34;&gt;Task&lt;/h3&gt;&#xA;&lt;p&gt;Below is the task for &lt;a href=&#34;https://overthewire.org/wargames/bandit/bandit0.html&#34;&gt;Level 0&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>JavaScript Mini-Project 1: Coffee Shop</title>
-      <link>https://enochyu-blog.pages.dev/posts/post05/</link>
+      <link>http://localhost:1313/posts/post04_js1coffeeshop/</link>
       <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post05/</guid>
-      <description>&lt;p&gt;For my first JavaScript mini-project, I decided to create a Coffee Shop simply because I love coffee and coffee shops. For your reference, here is the &lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;Coffee Shop&lt;/a&gt; and the &lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop&#34;&gt;source code&lt;/a&gt; of the project. Please feel free to leave any feedback in the comment section below for improvements!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;introducing-project-1&#34;&gt;Introducing Project 1&lt;/h2&gt;&#xA;&lt;p&gt;In this project, I wanted each phase to be separated with new sections and slides. With each input, the robot receiving the order will retain the information and utilize it in next phase. To practice using &lt;code&gt;&amp;lt;div&amp;gt;&lt;/code&gt; tag in html, I decided to change the background color and robot&amp;rsquo;s expression in new slides. Notice that when the customer entered a value that is not in the menu, the robot&amp;rsquo;s expression will change. Moreover, in the last phase, the brew time is equal to two times the number of coffee ordered.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CTF Day 1: Getting Started</title>
-      <link>https://enochyu-blog.pages.dev/posts/post04/</link>
-      <pubDate>Tue, 30 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post04/</guid>
-      <description>&lt;p&gt;If you have read the &lt;a href=&#34;https://enochyu-blog.pages.dev/posts/post01/&#34;&gt;first post&lt;/a&gt;, you probably know that I recently started studying for Capture the Flag (CTF) events. As I dive deeper into this new challenge, I decided to record my journey because why not? Through this blog, I hope to bring positive influence to all who are starting CTF challenges. Moreover, because I am not a professional in this field, any feedback are welcomed. Then, let&amp;rsquo;s get started!!&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/post04_js1coffeeshop/</guid>
+      <description>&lt;p&gt;Before getting started with competitive programming, I decided to&#xA;motivate myself with small JavaScript projects, mainly for growing&#xA;accustomed to coding and learning logics. As for my first JavaScript&#xA;mini-project, I decided to create a Coffee Shop simply because I&#xA;love coffee and coffee shops. For your reference, here is the&#xA;&lt;a href=&#34;https://enochyu-js.pages.dev/projects/project1_CoffeeShop/&#34;&gt;Coffee Shop&lt;/a&gt;&#xA;and the&#xA;&lt;a href=&#34;https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project1_CoffeeShop&#34;&gt;source code&lt;/a&gt;&#xA;of the project. Please feel free to leave any feedback in the comment&#xA;section below for improvements!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Accepting Failure: After Giving It My All</title>
-      <link>https://enochyu-blog.pages.dev/posts/post03/</link>
+      <link>http://localhost:1313/posts/post03_acceptingfailure/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post03/</guid>
+      <guid>http://localhost:1313/posts/post03_acceptingfailure/</guid>
       <description>&lt;p&gt;This post discusses about the recent emotional deterioration that I faced. If you are currently undergoing a challenge, I sincerely wish you to cheer up!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-disqualification&#34;&gt;The Disqualification&lt;/h2&gt;&#xA;&lt;p&gt;One may wonder: how big of a challenge can a high school student face? Well, I believe regardless of age, countless people encounter emotional challenges. For instance, failing an exam, receiving rejections, and breaking-up with the significant other may cause distress. As a student who wishes to major in pure mathematics, disqualifying from the second stage of team selecting process for the IMO (International Mathematical Olympiad) hit me hard.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Building My Blog With Hugo and GitHub</title>
-      <link>https://enochyu-blog.pages.dev/posts/post02/</link>
+      <link>http://localhost:1313/posts/post02_buildingmyblog/</link>
       <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post02/</guid>
+      <guid>http://localhost:1313/posts/post02_buildingmyblog/</guid>
       <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of options. I noticed that many of my favorite mathematicians including professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that &lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and must pay to utilize many of the features. There I wondered, &lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)&lt;/h2&gt;&#xA;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or hosting through SSG (Static Site Generator). The main difference is that CMS like Wordpress creates contents dynamically, whereas SSG is simply showing the users a pre-built sites. Here, I realized that most of my blogs would be text based, and does not require dynamic features such as user accounts. Moreover, sites created with SSG is much faster and secure compared to ones created with CMS since no server-side processing is required when accessing.&lt;/p&gt;</description>
     </item>
     <item>
       <title>[README] From the Beginning: My First Post</title>
-      <link>https://enochyu-blog.pages.dev/posts/post01/</link>
+      <link>http://localhost:1313/posts/post01_readme/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post01/</guid>
+      <guid>http://localhost:1313/posts/post01_readme/</guid>
       <description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics! I am a student from South Korea, and is currently attending Laurel Springs School. Please check out my &lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and &lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;, when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>JavaScript Mini-Project 4: Calculator</title>
-      <link>https://enochyu-blog.pages.dev/posts/post10/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post10/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript Mini-Project 5: Rock Paper Scissors</title>
-      <link>https://enochyu-blog.pages.dev/posts/post11/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post11/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript Mini-Project 6: Flip a Coin</title>
-      <link>https://enochyu-blog.pages.dev/posts/post12/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post12/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>JavaScript Mini-Project 7: Checklist</title>
-      <link>https://enochyu-blog.pages.dev/posts/post13/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://enochyu-blog.pages.dev/posts/post13/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>

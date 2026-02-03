@@ -1,4 +1,4 @@
-baseURL = 'https://enochyu-blog.pages.dev'
+baseURL = 'https://blog.enochyu.com'
 languageCode = 'en-US'
 title = "Enoch Yu (유에녹)"
 theme = 'EnochBlogTheme'
@@ -17,7 +17,7 @@ defaultContentLanguageInSubdir = false
   youtube = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
   github = "https://github.com/enochyu-official"
   linkedin = "https://www.linkedin.com/in/enoch-yu-94448939a/"
-  email = ""
+  email = "https://enochyu.com/pages/contact/"
 
 [params.comments]
   enabled = true
