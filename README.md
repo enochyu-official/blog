@@ -8,9 +8,9 @@ Springs School. Please check out my
 
 ## Why I Started to Blog
 Frankly, I wasn't always confident in writing. Although I am comfortable
-with using English, the thought that I do not sound like a **native speaker**,
-when using casual term, kicks in. *Is my grammar wrong? Is my word choice
-not ideal? Am I using the word in a wrong way?*
+with using English, the thought that I do not sound like a
+**native speaker**, when using casual term, kicks in. *Is my grammar wrong?
+Is my word choice not ideal? Am I using the word in a wrong way?*
 
 With all concerns, two reason allowed me to write this first post.
 The first reason is to overcome challenges that I face when using
