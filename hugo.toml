@@ -10,7 +10,7 @@ defaultContentLanguageInSubdir = false
   author = "Enoch Yu"
   avatar = "/images/avatar.png"
   mainSections = ["posts"]
-  favicon = "favicon.ico"
+  favicon = "/favicon/favicon.ico"
   math = true
 
 [params.social]
