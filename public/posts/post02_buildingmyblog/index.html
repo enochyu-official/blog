@@ -11,7 +11,7 @@
 <meta property="og:title" content="Enoch Yu's Personal Blog" />
 <title>Enoch Yu's Personal Blog</title>
 
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="/favicon/favicon.ico">
 <link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 <link rel="canonical" href="https://blog.enochyu.com/" />
@@ -153,7 +153,7 @@ However, I believe other code editors are perfectly fine!</p>
 <p>If you have Hugo and code editor ready to go, we need to create a
 repository in GitHub. I personally made a public repository named
 <strong>blog</strong>. Next, we need to enter following commands in terminal.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd BLOG-NAME
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd BLOG-NAME
 </span></span><span style="display:flex;"><span>git init
 </span></span><span style="display:flex;"><span>git add .
 </span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Initial commit&#34;</span>
@@ -167,11 +167,11 @@ create my own theme. My Hugo theme was created by merging and
 reading multiple themes from <a href="https://themes.gohugo.io/">Hugo Themes</a>.</p>
 <p>If you wish to implement the theme as a submodule, we must run
 the following commands in your project.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/enochyu-official/EnochBlogTheme themes/EnochBlogTheme
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git submodule add https://github.com/enochyu-official/EnochBlogTheme themes/EnochBlogTheme
 </span></span><span style="display:flex;"><span>git submodule update --init --recursive
 </span></span></code></pre></div><p>To integrate the theme, please update your <code>hugo.toml</code>. It should
 include the following.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/&#39;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">baseURL</span> = <span style="color:#e6db74">&#39;https://YOUR-GITHUB-ID.github.io/YOUR-REPOSITORY-NAME/&#39;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">languageCode</span> = <span style="color:#e6db74">&#39;en-US&#39;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;NAME OF YOUR BLOG&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#39;EnochBlogTheme&#39;</span>
@@ -190,7 +190,7 @@ include the following.</p>
 <code>BLOG-NAME/content/post</code>. For users on Unix-based operating
 system, <code>touch YOUR-POST.md</code> creates the empty file.</p>
 <p>In your Markdown file, it should include the following.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>author: YOUR NAME
 </span></span><span style="display:flex;"><span>title: YOUR TITLE
 </span></span><span style="display:flex;"><span>date: DATE
@@ -200,7 +200,7 @@ system, <code>touch YOUR-POST.md</code> creates the empty file.</p>
 </span></span><span style="display:flex;"><span>YOUR CONTENTS
 </span></span></code></pre></div><p>After writing your initial post, the following commands must be
 ran to update the GitHub repository.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
 </span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;YOUR-CHANGE&#34;</span>
 </span></span><span style="display:flex;"><span>git push
 </span></span></code></pre></div><p>Next, follow the steps from
