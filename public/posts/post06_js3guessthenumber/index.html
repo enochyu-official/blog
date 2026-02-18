@@ -12,12 +12,11 @@
 <title>Enoch Yu's Personal Blog</title>
 
 <link rel="icon" href="/favicon/favicon.ico">
-<link href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 <link rel="canonical" href="https://blog.enochyu.com/" />
 
 
-<link rel="stylesheet" href="/css/bundle.min.ef62132275c819146c81a78b3d56c67c8f4ff717ab09ecb11fc0c0b500b90e30.css" integrity="sha256-72ITInXIGRRsgaeLPVbGfI9P9xerCeyxH8DAtQC5DjA=">
+<link rel="stylesheet" href="/css/bundle.min.7243303ae26e3d1768f5480b983cbc1e787eb1d3fddf4afebf11ac48687856c0.css" integrity="sha256-ckMwOuJuPRdo9UgLmDy8Hnh&#43;sdP930r&#43;vxGsSGh4VsA=">
 
 <script type="application/ld+json">
 {
@@ -28,94 +27,87 @@
 }
 </script>
 
+
 </head>
 <body>
   <header>
-  <nav id="mainNavbar" class="navbar navbar-expand-lg glass" data-bs-theme="light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="https://blog.enochyu.com/">Enoch Yu (유에녹)</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="nav-logo">Enoch Yu</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <img src="/burger.svg" alt="Menu" class="icon-burger">
+        <img src="/close.svg" alt="Close" class="icon-close">
       </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav align-items-center">
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/">
-              Home
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/archives/">
-              Archives
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/categories/math/">
-              Math
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/categories/computer-science/">
-              Computer Science
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/categories/student-life/">
-              Student Life
-            </a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/categories/miscellaneous/">
-              Miscellaneous
-            </a>
-          </li>
-          
-
-          <li class="nav-item">
-            <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-              <i class="fas fa-moon" id="theme-icon"></i>
-            </button>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav-menu" id="navMenu">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/">
+            Home
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/archives/">
+            Archives
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/categories/math/">
+            Math
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/categories/computer-science/">
+            Computer Science
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/categories/student-life/">
+            Student Life
+          </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="/categories/miscellaneous/">
+            Miscellaneous
+          </a>
+        </li>
+        
+      </ul>
     </div>
   </nav>
 </header>
 
 
-
   
   <main>
     
-<div class="container">
-  <div class="post-container">
-    <article class="post-content glass">
-      <h1 class="post-title">JavaScript Mini-Project 3: Guess the Number</h1>
-      <div class="post-meta">
-        <i class="far fa-calendar"></i> January 17, 2026
-        <span class="mx-2">|</span>
-        <i class="far fa-clock"></i> 5 min read
-        <span class="mx-2">|</span>
-        <i class="far fa-file-text"></i> 860 words
+<div class="post-container">
+  <article class="post-content">
+    <h1 class="post-title">JavaScript Mini-Project 3: Guess the Number</h1>
+    <div class="post-meta">
+      <i class="far fa-calendar"></i> January 17, 2026
+      <span class="space">|</span>
+      <i class="far fa-clock"></i> 5 min read
+      <span class="space">|</span>
+      <i class="far fa-file-text"></i> 860 words
 
-         
-        <span class="mx-2">|</span>
-        <i class="fas fa-folder"></i> 
-        
-        <a href="/categories/computer-science/">Computer Science</a>
-        
-        
-      </div>
+       
+      <span class="space">|</span>
+      <i class="fas fa-folder"></i> 
+      
+      <a href="/categories/computer-science/">Computer Science</a>
+      
+      
+    </div>
 
-      <div class="post-body">
-        <p>For my third project, I decided to create a fun guess the number game.
+    <div class="post-body">
+      <p>For my third project, I decided to create a fun guess the number game.
 <a href="https://js.enochyu.com/projects/project3_GuessTheNumber/">Guess the Number</a> and its
 <a href="https://github.com/enochyu-official/js-mini-projects/tree/main/projects/project3_GuessTheNumber">source codes</a>
 are available. Please note that because I did not utilize internet
@@ -268,19 +260,19 @@ Moreover, increments could be utilized in various ways!!</p>
 </div>
 
 
-      </div>
+    </div>
+    
+    <div class="post-tags">
+      <strong>Tags:</strong>
       
-      <div class="post-tags mt-4">
-        <strong>Tags:</strong>
-        
-        <a href="/tags/js-mini-project/" class="tag">JS Mini-Project</a>
-        
-      </div>
+      <a href="/tags/js-mini-project/" class="stats-badge">JS Mini-Project</a>
       
-    </article>
-        
+    </div>
+    
+  </article>
+    
 <aside class="toc-sidebar">
-  <div class="toc glass">
+  <div class="toc">
     <div class="toc-title">Table of Contents</div>
     <nav id="TableOfContents">
   <ul>
@@ -299,48 +291,47 @@ Moreover, increments could be utilized in various ways!!</p>
 </aside>
 
 
-    </div>
-
-    <section class="giscus"></section>
-    <script src="https://giscus.app/client.js"
-        data-repo="enochyu-official/blog"
-        data-repo-id="R_kgDOQmE9xg"
-        data-category="General"
-        data-category-id="DIC_kwDOQmE9xs4Czr9C"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="0"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
-
-    <nav class="post-navigation glass">
-      <div class="nav-buttons">
-        
-        <a href="https://blog.enochyu.com/posts/post05_js2stopwatch/" class="nav-button">
-          <div class="nav-label"><i class="fas fa-arrow-left"></i> Previous</div>
-          <div class="nav-title">JavaScript Mini-Project 2: Stopwatch</div>
-        </a>
-        
-
-        
-      </div>
-    </nav>
 </div>
+
+<section class="giscus"></section>
+<script src="https://giscus.app/client.js"
+    data-repo="enochyu-official/blog"
+    data-repo-id="R_kgDOQmE9xg"
+    data-category="General"
+    data-category-id="DIC_kwDOQmE9xs4Czr9C"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="0"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="light"
+    data-lang="en"
+    crossorigin="anonymous"
+    async>
+</script>
+
+<nav class="post-navigation">
+  <div class="nav-buttons">
+    
+    <a href="https://blog.enochyu.com/posts/post05_js2stopwatch/" class="nav-button">
+      <div class="nav-label"><i class="fas fa-arrow-left"></i> Previous</div>
+      <div class="nav-title">JavaScript Mini-Project 2: Stopwatch</div>
+    </a>
+    
+
+    
+  </div>
+</nav>
 
   </main>
   
-  <footer class="mt-5 py-4 text-center">
-  <div class="container">
-    <a class="mb-0" href="https://github.com/enochyu-official" target="_blank" rel="noopener noreferrer">
+  <footer class="footer">
+  <div>
+    <a href="https://enochyu.com/" target="_blank" rel="noopener noreferrer">
       &copy; 2026 Enoch Yu. All Rights Reserved.
     </a>
   </div>
-
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
   <script>
     var t = setInterval(function() {
       if (window.goatcounter && window.goatcounter.visit_count) {
@@ -391,28 +382,6 @@ Moreover, increments could be utilized in various ways!!</p>
       updateViewCounts();
     }
   </script>
-
-  <script>
-    MathJax = {
-      options: {
-        menuOptions: {
-          settings: {
-            enrich: false,
-            collapsible: false,
-            speech: false,
-            braille: false,
-            assistiveMml: false,
-          }
-        }
-      },
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['\\[', '\\]'], ['$$', '$$']]
-      },
-      svg: { fontCache: 'global' }
-    };
-  </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-svg.js"></script>
 </footer>
 
   
@@ -420,6 +389,5 @@ Moreover, increments could be utilized in various ways!!</p>
   
   <script src="/js/script.js"></script>
   
-  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

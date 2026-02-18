@@ -44,7 +44,7 @@
       <description>&lt;p&gt;When I first decided to write my blog, I was thrown into bunch of&#xA;options. I noticed that many of my favorite mathematicians including&#xA;professor Terence Tao uses &lt;em&gt;wordpress.com&lt;/em&gt;. However, I noticed that&#xA;&lt;em&gt;wordpress.com&lt;/em&gt; would generally give less control over my blog, and&#xA;must pay to utilize many of the features. There I wondered,&#xA;&lt;em&gt;why don&amp;rsquo;t I build one myself?&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;static-site-generator-ssg&#34;&gt;Static Site Generator (SSG)&lt;/h2&gt;&#xA;&lt;p&gt;I had two options of hosting via CMS (Content Management System) or&#xA;hosting through SSG (Static Site Generator). The main difference is&#xA;that CMS like Wordpress creates contents dynamically, whereas SSG is&#xA;simply showing the users a pre-built sites. Here, I realized that&#xA;most of my blogs would be text based, and does not require dynamic&#xA;features such as user accounts. Moreover, sites created with SSG is&#xA;much faster and secure compared to ones created with CMS since no&#xA;server-side processing is required when accessing.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>[README] From the Beginning: My First Post</title>
+      <title>From the Beginning: My First Post</title>
       <link>https://blog.enochyu.com/posts/post01_readme/</link>
       <pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://blog.enochyu.com/posts/post01_readme/</guid>

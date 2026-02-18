@@ -1,6 +1,6 @@
 ---
 author: Enoch Yu
-title: "[README] From the Beginning: My First Post"
+title: "From the Beginning: My First Post"
 date: 2025-12-12
 categories: ["Student Life"]
 ---
